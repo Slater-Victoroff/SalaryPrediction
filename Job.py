@@ -1,5 +1,5 @@
-import Word
-import WordPair
+import word
+import wordPair
 import re
 
 class Job:
@@ -24,5 +24,6 @@ class Job:
 	def wordsToWordPairs(self, words):
 		wordPairs = []
 		for i in range(1,len(words)):
-			wordPairs.append(WordPair(words[i-1], words[i])
+			wordPairs.append(WordPair(words[i-1], words[i]))
 		return wordPairs
+
