@@ -1,5 +1,5 @@
-import word
-import wordPair
+from word import Word
+from wordPair import WordPair
 import re
 
 class Job:
@@ -9,21 +9,24 @@ class Job:
 	be replaced by lists of words and wordpairs'''
 	def __init__(self, rawJob, wordPattern = r'^([a-zA-Z\']+)$', filteredCharacters = "'"):
 		'''Just storing basic information for now'''
-		self.titleWords = self.cleanString(rawJob.title)
+		self.wordPattern = wordPattern
+		self.filteredCharacters = filteredCharacters
+		self.titleWords = self.cleanString(rawJob.data["title"])
 		self.titleWordPairs = self.wordsToWordPairs(self.titleWords)
-		self.descriptionWords = self.cleanString(rawJob.description)
+		self.descriptionWords = self.cleanString(rawJob.data["description"])
 		self.descriptionWordPairs = self.wordsToWordPairs(self.descriptionWords)
+		self.salary = float(rawJob.data["salaryNormalized"])
+		self.location = rawJob.data["normalizedLocation"]
 		
 	def cleanString(self, string):
 		'''Takes a list, parses it down to words according to the word pattern,
 		then removes the characters in filteredCharacters. Returns the string
 		as a list of words'''
-		return [Word(word.replace(self.filteredCharacters, "")) for word in
-						string.lower().split(" ") if re.match(self.wordPattern, word)]	
+		#return [Word(word.replace(self.filteredCharacters, "")) for word in
+		#				string.lower().split(" ") if re.match(self.wordPattern, word)]	
+		return [Word(word) for word in string.lower().split(" ")]
 						
 	def wordsToWordPairs(self, words):
-		wordPairs = []
-		for i in range(1,len(words)):
-			wordPairs.append(WordPair(words[i-1], words[i]))
+		wordPairs = [WordPair(words[i-1], words[i]) for i in range(1,len(words))]
 		return wordPairs
 

@@ -1,0 +1,2732 @@
+'Barnstaple': 26680.746478873236
+'Cullompton': 19870.266666666666
+'Kensington': 34691.72727272728
+'Ellon': 28330.666666666664
+'Deeside': 23510.82758620689
+'Bury St. Edmunds': 23521.97872340427
+'Middlewich': 21775.428571428572
+'East Sussex': 36693.351282051284
+'Crookham Village': 44000.0
+'Liverpool': 26601.3534675615
+'High Wycombe': 31896.207627118638
+'Stroud Green': 19000.0
+'Peckham': 25881.333333333332
+'Heysham': 55980.0
+'Chalvey': 42071.42857142858
+'Gravesend': 26248.61428571428
+'Shirley': 44900.0
+'Hall Green': 19000.0
+'Dormans Park': 31500.0
+'Waterloo': 43198.75
+'Montrose': 25425.64285714286
+'North Tawton': 20601.5
+'Westhumble': 36750.0
+'Cambridgeshire': 36972.983703703714
+'Old Dalby': 16320.0
+'Poplar': 27120.0
+'Broadstairs': 33698.032258064515
+'Torrington': 25480.0
+'Southwold': 16000.0
+'Exeter': 26554.09039548021
+'Rayleigh': 22849.64705882353
+'Storrington': 22310.0
+'Sydenham': 35000.0
+'Blackpool Airport': 30375.0
+'Holland Park': 20160.0
+'East Beckham': 33333.333333333336
+'Sheringham': 23500.0
+'Seaforde': 22420.0
+'Windsor': 32564.4
+'Sandy': 19426.52941176471
+'Dukinfield': 16382.5
+'Scone': 15000.0
+'Atherstone': 23973.028571428567
+'Eastcote': 21000.0
+'Newbridge': 11884.0
+'St. Andrews': 20364.612903225807
+'Cutmill': 23000.0
+'Clerkenwell': 35666.666666666664
+'Tenby': 23452.0
+'Aylsham': 22500.0
+'Kilmarnock': 27578.999999999993
+'Cuffley': 59500.0
+'Hailey': 39700.0
+'Bishopbriggs': 37500.0
+'Llandudno': 20879.875
+'Alresford': 23333.333333333332
+'Sandown': 20136.0
+'Lymington': 22121.26829268293
+'Stow-Cum-Quy': 14000.0
+'Bletchley': 13586.666666666666
+'Dalgety Bay': 25440.0
+'High Peak': 25528.0
+'Llantrisant': 18252.666666666668
+'Histon': 19411.0
+'Purley': 32208.63157894737
+'Cwmllynfell': 23846.0
+'Kirkhamgate': 28800.0
+'Oakdale': 49200.0
+'Southend-On-Sea': 27498.176470588234
+'Kentish Town': 24465.0
+'Wolverhampton': 25868.661835748782
+'Okehampton': 20707.333333333336
+'Rickmansworth': 32900.60869565218
+'Bruton': 31180.0
+'All Saints': 40000.0
+'Coedpenmaen': 12960.0
+'South Littleton': 52499.5
+'Penisarwaun': 21120.0
+'Wykin': 11184.0
+'Ferryhill': 21896.0
+'Doncaster': 26790.335892514388
+'Nottinghamshire': 33237.0718685832
+'West Berkshire': 39860.875
+'Bebington': 16500.0
+'Handsworth': 30000.0
+'Cranfield': 36876.666666666664
+'North Fambridge': 23500.0
+'Cannock': 22386.411290322572
+'Newton Abbot': 20932.31067961165
+'Cramlington': 26917.225806451614
+'Newham': 28783.52941176471
+'Kelso': 28755.666666666664
+'Chiswick': 31634.61904761904
+'Wales': 38080.86988847587
+'Brompton': 30000.0
+'Penllergaer': 26496.0
+'Wroughton': 13260.0
+'Horley': 24485.66666666667
+'Hythe': 33638.4
+'Winnersh': 27303.454545454544
+'Tamworth': 26165.19170984457
+'Lymm': 21123.76923076923
+'Northwood': 17600.5
+'Leigh-On-Sea': 25272.727272727272
+'Calstock': 14880.0
+'Watton': 22505.125
+'Grafton Regis': 32000.0
+'Ash Vale': 38000.0
+'Brighton': 29057.364461738012
+'Mexborough': 24388.0
+'Morriston': 12144.0
+'Bodmin': 20418.299999999996
+'Alvechurch': 15766.0
+'Penmaenmawr': 11884.0
+'Twickenham': 31425.32432432433
+'Houghton Le Spring': 20406.666666666668
+'Pitlochry': 20905.0
+'Wrekin': 33307.0
+'Clackmannan': 18720.0
+'Lisburn': 27334.018181818177
+'Potters Bar': 25119.36842105263
+'Altnagelvin': 30000.0
+'Den Cross': 24999.0
+'Ormskirk': 20791.075471698117
+'Felsted': 24960.0
+'Cheltenham': 30562.85783521809
+'Binbrook': 16500.0
+'St. Pauls': 16000.0
+'Boldon Colliery': 39491.30833333334
+'Cowbridge': 13905.42857142857
+'Battersea': 36650.0
+'Borough': 35000.0
+'Islington': 29369.658227848104
+'Berkhamsted': 19538.10714285714
+'Ditchingham': 29000.0
+'Northenden': 20730.0
+'Paddock Wood': 27075.0
+'Holyport': 30000.0
+'Malton': 24497.46153846154
+'Hampstead': 25754.7
+'Rhu': 35951.5
+'Ponteland': 12500.0
+'Irvine': 22361.93103448276
+'East London': 35887.16263736263
+'Heckmondwike': 53218.6
+'Mirfield': 17923.266666666663
+'Ruislip': 28808.545454545456
+'Stock': 39750.0
+'Claydon': 12480.0
+'Gorleston': 21250.0
+'South Ayrshire': 25229.75
+'Greenock': 16219.764705882357
+'Stotfold': 24000.0
+'Yapton': 11884.0
+'Englefield': 23500.0
+'Great Kelk': 22094.666666666664
+'Chadwell St. Mary': 6454.0
+'Matlock': 25789.874999999993
+'Leicestershire': 32808.91969887076
+'Westbury': 22176.53846153846
+'Coulsdon': 26126.09090909091
+'Cheddar': 22998.0
+'Beckenham': 29012.15384615385
+'Churwell': 18000.0
+'Neyland': 27500.0
+"Shepherd's Bush": 24248.666666666668
+'Thornton Heath': 18401.25
+'Heckington': 16454.0
+'Kenilworth': 21841.066666666666
+'Soho': 39700.0
+'Benbecula': 13440.0
+'Southfields': 32000.0
+'Eye': 24826.666666666668
+'Billingham': 29219.370370370365
+'Wrexham': 23971.12037037038
+'East Grinstead': 27295.010752688162
+'East Wittering': 16320.0
+'Montgomery': 18000.0
+'Newark': 24010.52272727272
+'Acton Gate': 40000.0
+'Oldbury': 23320.169491525427
+'Porthcawl': 19455.75
+'Kendal': 23083.78431372549
+'Halstead': 21616.857142857145
+'Llanbedr Dyffryn Clwyd': 32451.428571428572
+'Helensburgh': 30344.177777777782
+'Wigan': 23667.260869565216
+'Perranuthnoe': 11040.0
+'Kearsley': 15000.0
+'Driffield': 25662.0
+'Redbourn': 12240.0
+'Camberwell': 36173.333333333336
+'Isle Of Harris': 18457.5
+'Alderley': 24727.272727272728
+'Great Langdale': 13440.0
+'Birchwood': 44575.5
+'Camborne': 13114.0
+'Treorchy': 22932.0
+'Lytham St. Annes': 16000.0
+'Ystrad Mynach': 35000.0
+'Iffley': 25238.0
+'Ledbury': 25647.882352941175
+'Port Glasgow': 23720.333333333332
+'Knowsley Park': 32500.0
+'Kilbarchan': 30240.0
+'Turriff': 22896.0
+'Thetford': 27713.328571428578
+'Englefield Green': 13622.0
+'Barnard Castle': 22934.666666666668
+'Northamptonshire': 34198.944012441665
+'West Marton': 18333.333333333332
+'Kingsbarns': 14000.0
+'Coleshill': 31955.166666666668
+'Sevenoaks': 28404.1265060241
+'Honingham': 15500.0
+'Hanworth': 24000.0
+'Queenborough': 13791.75
+'West Hampstead': 37000.0
+'St. Asaph': 23039.913043478256
+'Bordon': 24954.76190476191
+'Holt': 17511.0
+'Aylesford': 27548.833333333336
+'Aberdare': 16564.0
+'Willian': 39166.666666666664
+'Betchworth': 20568.85714285714
+'Radlett': 27702.28571428571
+'Chatham': 24154.233333333334
+'Church End': 14500.0
+'Whistlow': 50500.0
+'Glemsford': 24000.0
+'Broadfield': 42230.90909090909
+'Bridgwater': 24477.166666666675
+'Haverfordwest': 20509.58823529412
+'Abercynon': 15444.0
+'Chigwell': 26824.800000000003
+'Carleton': 37133.333333333336
+'Cambridge': 34014.1721752498
+'Melton Constable': 21196.666666666668
+'Woking': 30463.91774891775
+'Ripe': 19000.0
+'Lenham': 18500.0
+'Old Sodbury': 33750.0
+'Euston': 23500.0
+'Ringmer': 40320.0
+'Kilwinning': 26922.5
+'Neston': 13817.999999999998
+'Prenton': 24260.5
+'Ampthill': 15896.0
+'Newton Mearns': 20352.0
+'Cranleigh': 24234.611111111113
+'Bar Hill': 41625.0
+'Loughborough': 27272.038869257944
+'Mill Hill': 22312.5
+'Turnpike Lane': 28719.0
+'Llandudno Junction': 14400.0
+'Gedling': 32400.0
+'Chipping Campden': 19234.607142857145
+'Ashtead': 28379.0
+'Isle Of North Uist': 45233.333333333336
+'North Somerset': 33893.57142857143
+'Newent': 21800.0
+'Penzance': 25697.750000000007
+'Dinton': 31166.666666666668
+'Didcot': 27233.45454545455
+'Hanwell': 28800.0
+'Urmston': 27740.0
+'Ceredigion': 23773.5
+'Edge': 21628.0
+'Selkirk': 23177.25
+'Western Isles': 38139.09090909091
+'Tetbury': 30288.95238095238
+'Oakham': 19626.04347826087
+'Bickley': 19500.0
+'Brixton': 21349.2
+'Croydon': 33787.18996415769
+'Sea': 16331.490566037739
+'Iver Heath': 24960.0
+'Denham': 45000.0
+'Brecon': 22974.928571428572
+'Sawbridgeworth': 26250.0
+'Pickering': 19157.625
+'Capel St. Mary': 19440.0
+'Butleigh': 42500.0
+'Mapperley': 14000.0
+'Killingworth': 38400.0
+'Downes': 27367.46666666667
+'Barnetby': 30000.0
+'Peacehaven': 16882.666666666668
+'Brockworth': 51732.0
+'Hertford Heath': 28500.0
+'Ashbourne': 23051.782608695652
+'Truro': 26648.155339805813
+'Linwood': 15571.0
+'Stroud': 24013.46341463414
+'South Muskham': 62499.0
+'Beckton': 35500.0
+'Devon': 32170.86246418338
+'Baughton': 61440.0
+'Llanfairpwllgwyngyll': 16731.428571428572
+'Stoke': 34500.0
+'Ash': 70000.0
+'Earls Court': 17050.0
+'Kelty': 14763.0
+'Steeton': 17462.0
+'Shillingford Hill': 32500.0
+'Lyng': 15000.0
+'Lyne': 16770.333333333332
+'Westbury-On-Severn': 26000.0
+'Ludlow': 17248.75
+'Amersham': 31771.047619047615
+'Aldermaston': 51850.0
+'Theale': 30021.42857142857
+'Buckley': 39870.0
+'Birkenshaw': 27500.0
+'Isle Of Coll': 43000.0
+'Burghfield': 20113.0
+'Itchenor': 35430.0
+'Alston': 31230.909090909092
+'Lakeside': 16725.0
+'Stow Longa': 73800.0
+'Kingston': 20080.0
+'Fareham': 30116.5941043084
+'Raunds': 11520.0
+'Catterick Garrison': 22584.07142857143
+'Swaffham': 19246.666666666668
+'Portscatho': 18000.0
+'Trowbridge': 29019.79090909092
+'South West London': 37385.830080367385
+'Armagh': 26610.578947368416
+'Mildenhall': 21557.181818181816
+'Clarbeston': 13935.0
+'Freuchie': 25785.0
+'Saltcoats': 18805.333333333332
+'Bonnybridge': 21010.0
+'Meadowbank': 13392.0
+'Fakenham': 22097.136363636368
+'Hamilton': 21035.23076923077
+'Orkney': 36625.5
+'Menai Bridge': 13200.0
+'Carrickfergus': 21408.0
+'Pembroke': 19435.444444444445
+'Rainham': 24608.666666666668
+'Leven': 14374.083333333334
+'Billingbear': 33000.0
+'Wakefield': 25569.98484848484
+'Exeter Airport': 41376.5
+'Bruntingthorpe': 41833.333333333336
+'Havant': 32172.840336134454
+'Bexley': 31150.941176470584
+'Thames View Industrial Park': 27000.0
+'Wilmslow': 22242.27142857144
+'Tarring': 36100.0
+'Padworth': 35333.333333333336
+'Gloucester': 30819.485232067527
+'Aldershot': 24762.394736842103
+'Fife': 28140.56953642385
+'France Lynch': 43333.333333333336
+'Silsden': 13728.0
+'Washington': 26941.804347826084
+'Andover': 27569.973821989526
+'North Ewster': 40964.33783783784
+'Llandovery': 18750.0
+'Heathfield': 21196.333333333336
+'Bradshaw': 34000.0
+'Bridge Of Weir': 14249.0
+'Maple Cross': 45000.0
+'Crieff': 16903.0
+'Barrow-Upon-Humber': 46632.09090909091
+'Cumbernauld': 37500.0
+'Wrexham Technology Park': 22500.0
+'Portishead': 14957.333333333332
+'Howden': 50000.0
+'Bexhill-On-Sea': 29166.075471698117
+'Brockley': 19804.5
+'Christleton': 35000.0
+'Hanham': 47850.0
+'Netherfield': 17280.0
+'Narberth': 16725.0
+'Knutsford': 31375.416666666664
+'Grantham': 24086.16666666666
+'Tunbridge Wells': 27336.10963455149
+'North London': 34015.17432950189
+'Ivybridge': 16541.500000000004
+'Formby': 34105.0
+'Trafford Park': 21013.0
+'Hounslow': 27223.814432989693
+'Rhondda Cynon Taff': 21152.923076923074
+'Littleham': 42500.0
+'Selly Oak': 21833.333333333332
+'Houghton Regis': 22698.0
+'Staffordshire': 33689.21839080462
+'Golspie': 27819.0
+'Wickham': 14447.0
+'Horsham': 26436.051401869157
+'Waltham Abbey': 24125.52
+'Dunwich': 12000.0
+'Streatham': 25457.5
+'Bromham': 14400.0
+'Wantage': 29303.095238095244
+'Hedge End': 24286.0
+'Rowlands Gill': 23040.0
+'Pwllheli': 19560.0
+'Dungeness': 86400.0
+'Stratford': 26465.52941176471
+'Burn Bridge': 39722.22222222222
+'Theakston': 27744.0
+'Thornhill': 52750.0
+'Aberdeen': 41175.87943696453
+'Aberaeron': 34580.333333333336
+'Carlisle': 28690.612903225814
+'Stockland Bristol': 37272.40000000001
+'Keighley': 25323.765957446816
+'Llanybydder': 22736.0
+'Hurstpierpoint': 32500.0
+'Lount': 21500.0
+'Caton': 12960.0
+'Little Tring': 45000.0
+'Waterbeach': 14999.5
+'Ireland': 57741.333333333336
+'Tring': 25282.26315789474
+'Windsor Castle': 41550.0
+'Borders': 34059.50000000001
+'Stanwell': 25000.0
+'Llanberis': 46000.0
+'Brinsford': 24333.333333333332
+'Kerry': 47680.0
+'Lochgelly': 35044.6
+'North Walsham': 20351.625
+'Kent International Airport': 15613.0
+'Blackford': 12480.0
+'Renfrew': 22711.999999999996
+'Whitminster': 27000.0
+'West Bridgford': 29403.692307692305
+'Haymarket': 20000.0
+'Colne': 19666.454545454548
+'Bootle': 19677.928571428576
+'Salford': 22983.198473282446
+'Cadishead': 20000.0
+'Kirkby-In-Ashfield': 31420.5
+'Bath & N E Somerset': 16250.0
+'Cowes': 46952.0
+'Devizes': 22161.457627118645
+'Nuneaton': 25772.786666666667
+'Liverpool Street': 45000.0
+'Tyseley': 15712.0
+'Kingfisher Shopping Centre': 32300.0
+'Beaworthy': 19483.333333333332
+'Fitzrovia': 50000.0
+'Elgin': 19778.333333333332
+'Worcester': 27753.409207161116
+'Hook': 32453.035714285714
+'Lifton': 15520.0
+'Trent': 16427.32954545455
+'Manchester Science Park': 40104.05376344085
+'Bassaleg': 47400.0
+'Pembroke Dock': 17246.25
+'Isle Of Man': 40512.11764705883
+'Cleadon': 32500.0
+'Roslin': 25680.5
+'Berwyn': 100000.0
+'Prescot': 22615.970588235286
+'Hebburn': 22440.7
+'Bembridge': 18000.0
+'Bourne End': 38526.63157894737
+'Market Weighton': 13589.0
+'Epsom': 28858.01092896175
+'Liphook': 18743.500000000004
+'Denmead': 24673.333333333332
+'Prestwick': 27546.63636363636
+'Prestwich': 32964.90909090909
+'St. Werburghs': 24646.0
+'Markfield': 23606.833333333336
+'Rochford': 22167.63636363636
+'Littleborough': 35000.0
+'West Dunbartonshire': 37753.333333333336
+'Clevedon': 30056.083333333336
+'Caernarfon': 23980.28571428572
+'Lyndhurst': 24312.428571428572
+'Shalford': 26000.0
+'South Petherton': 12720.0
+'Botley': 26742.0
+'Kenley': 26000.0
+'Shildon': 21988.692307692305
+'North Rigton': 31646.923076923078
+'Bristol': 33481.270503597145
+'Hoe Hill': 40000.0
+'Wombwell': 17667.0
+'Hexham': 20296.250000000004
+'Spalding': 23439.77142857144
+'Leicester': 27894.102543068042
+'Chalfont St. Peter': 18000.0
+'Burton-On-Trent': 27832.007299270063
+'Hope Carr': 13132.0
+'Isle Of Arran': 19226.000000000004
+'Belton': 27500.0
+'Coniston': 17250.0
+'Blantyre': 29000.0
+'Portland': 35443.2
+'Stretham': 42500.0
+'Amesbury': 31127.0
+'South Woodham Ferrers': 13920.0
+'Farringdon': 33123.07692307692
+'Deanshanger': 16320.0
+'Cressington': 44919.28571428572
+'Crowborough': 26914.947368421053
+'H M Naval Base': 43872.2
+'Hartley Wintney': 14784.0
+'Thornbury': 21250.0
+'Gerrards Cross': 28916.083333333336
+'Carmarthenshire': 29514.285714285714
+'Helsby': 33000.0
+'Flint': 18852.0
+'Southborough': 19200.0
+'Lewisham': 30964.333333333336
+'Chilcompton': 20160.0
+'Penarth': 21795.363636363636
+'Tadworth': 28213.656250000007
+'Stapleford': 11520.0
+'Eaton Socon': 17913.0
+'Peterlee': 28507.212121212116
+'New Zealand': 65243.333333333336
+'Coningsby': 31500.0
+'Barnsley': 28042.273437500004
+'Callington': 20115.666666666668
+'Eggington': 16368.0
+'Weston Coyney': 39750.0
+'Warlingham': 17151.0
+'Ash Green': 36866.07142857142
+'Lye': 13440.0
+'Kennoway': 29760.0
+'Annitsford': 42500.0
+'Haltwhistle': 24561.0
+'Bridgend': 25532.778947368424
+'Birtley': 26626.666666666668
+'Kempston': 23802.777777777777
+'Retford': 26983.777777777777
+'Cippenham': 13750.0
+'Redbourne': 30000.0
+'Shotts': 20250.0
+'Wadhurst': 24819.0
+'Crediton': 18199.6
+'Newarthill': 24000.0
+'Deepcut': 22848.0
+'Ramsgreave': 20500.0
+'Dolgellau': 18000.0
+'Barrow-In-Furness': 36608.21126760566
+'Edinburgh': 33820.882802547734
+'Motherwell': 26606.305555555555
+'Ulverston': 26273.47058823529
+'Longbridge': 50604.0
+'Coalville': 22231.549019607846
+'Pont Nedd Fechan': 15408.0
+'Wimborne': 30194.487804878045
+'Emersons Green': 13046.0
+'Soham': 21600.0
+'Axminster': 22866.4
+'Whiteparish': 11904.0
+'Keith': 15436.0
+'Radstock': 22320.055555555555
+'Templecombe': 11884.0
+'Silfield': 45000.0
+'Blackfriars': 42500.0
+'Abergavenny': 16555.0
+'Carnoustie': 12230.0
+'Well End': 36750.0
+'Colwyn Bay': 18148.777777777777
+'Inverkeithing': 28064.9
+'Leighton Buzzard': 26184.654545454545
+'Powys': 22319.473684210527
+'Chertsey': 30229.56363636364
+'Humber': 43357.142857142855
+'Essex': 34974.3642172524
+'Crouch End': 40000.0
+'Belgravia': 26880.0
+'Cheam': 22844.0
+'Lutterworth': 22071.407407407412
+'Mablethorpe': 20826.333333333332
+'Currie': 17604.5
+'Brewood': 14064.0
+'Chadbury': 46371.42857142857
+'Greasbrough': 27208.333333333332
+'Tatton': 34166.666666666664
+'Dunham-On-Trent': 28877.272727272728
+'Radley Green': 22500.0
+'Dallas': 82000.0
+'Scotland': 36879.03658536587
+'Linton': 25000.0
+'Machynlleth': 18232.666666666668
+'Bourne': 20873.2
+'Meriden': 24000.0
+'Haslemere': 20202.97727272728
+'Stoke-On-Trent': 28178.988636363632
+'Chiltern Green': 17634.0
+'St. Clears': 16185.0
+'Abbey Wood': 39360.0
+'Gainsborough': 26867.964912280702
+'Caversham': 18378.0
+'Sarratt': 11673.0
+'Torquay': 25072.569892473126
+'Denbigh': 22506.666666666668
+'Aycliffe': 19491.000000000004
+'Farmoor': 32500.0
+'Westhill': 21054.2
+'Norwood': 18500.0
+'Ryton': 15996.666666666666
+'Wadebridge': 13059.42857142857
+'Billericay': 26420.176470588234
+'Bournemouth International Airport': 46673.87999999998
+'Tewkesbury': 28266.3
+'Melton Mowbray': 24469.666666666657
+'Throsk': 29000.0
+'South Molton': 25367.47619047619
+'Hillsborough': 16500.0
+'Wymington': 42500.0
+'Burgess Hill': 28106.925531914898
+'Little Eaton': 15360.0
+'Sparkhill': 24000.0
+'Bakewell': 21701.166666666664
+'Lindford': 13526.0
+'Braunstone': 19250.0
+'Bankside': 45000.0
+'Ossett': 26700.928571428572
+'Melrose': 28800.5
+'Duffryn Rhondda': 17000.0
+'Streatham Park': 19680.0
+'Broadgate': 40499.5
+'Thurleigh': 21840.0
+'Birmingham International Airport': 18780.749999999996
+'Cefn Coed': 15840.0
+'Callands': 21000.0
+'Wishaw': 16867.125
+'East Holton': 20690.0
+'Steeple Morden': 15360.0
+'Ballymoney': 20686.4
+'Northam': 87600.0
+'Swinton': 29028.6
+'Cornwall': 31748.07878787879
+'Ambergate': 27250.0
+'Chipping Sodbury': 15360.0
+'Northaw': 62500.0
+'Manor Park': 21072.0
+'Ibstock': 13381.5
+'Portlethen': 22263.666666666668
+'Alnwick': 24430.3125
+'Holsworthy': 16115.1
+'Drayton': 25091.619047619053
+'Wilmington': 41500.0
+'Brize Norton': 35000.0
+'Arnold': 26000.0
+'Yarmouth': 60000.0
+'Melbourne': 53008.4
+'North East England': 38434.623556581966
+'Sutton-In-Ashfield': 21979.750000000004
+'Winsford': 19020.559999999994
+'Monument': 26500.0
+'Wynyard': 17000.0
+'Ealing': 32681.852941176483
+'Spennymoor': 22583.85714285714
+'Hemel Hempstead': 30113.39593908629
+'Alconbury': 11884.0
+'Gatwick': 35807.18
+'Rivenhall': 35000.0
+'Yateley': 23693.799999999996
+'Newton-Le-Willows': 24773.333333333332
+'Clifton': 41995.25423728814
+'Tonypandy': 21013.6
+'Hucknall': 28349.0
+'Coaley': 38812.5
+'Sunderland': 27030.679310344833
+'Whitstable': 29574.0
+'Little Chalfont': 38865.0
+'Balerno': 19036.0
+'Saffron Walden': 26585.0
+'Hampton Poyle': 72000.0
+'Eltham': 16241.6
+'Bisley': 22500.0
+'Paris Island Little': 42779.5
+'Heyshott': 50000.0
+'Dundee': 28436.899999999998
+'North Howden': 36383.625
+'Broxburn': 23780.166666666664
+'Ipswich': 29975.506249999984
+'Willesborough': 14400.0
+'Haugh': 26000.0
+'Falkland': 52500.0
+'Moreton-In-Marsh': 23275.882352941175
+'Neath': 22928.964285714283
+'East Wall': 47362.5294117647
+'Falmouth': 25715.586206896547
+'Oxted': 21264.347826086956
+'Winkfield Row': 24116.0
+'Balham': 23280.0
+'Padstow': 16579.166666666668
+'Rosyth': 40836.13953488372
+'Bury': 25461.750000000007
+'Forest Beck': 18294.666666666668
+'Easton': 17515.666666666668
+'Clyst Honiton': 23040.0
+'West Haddon': 46249.5
+'Whittlesey': 30000.0
+'Measham': 12038.0
+'Willand': 28800.0
+'Whitechapel': 20000.0
+'East Finchley': 29000.0
+'Solihull': 28523.424242424244
+'Sunbury-On-Thames': 31303.749999999996
+'Lydbury North': 37739.178571428565
+'Walkley': 16000.0
+'Atherton': 17750.0
+'Jersey': 39135.72222222222
+'Enniskillen': 20975.0
+'Coal Aston': 19500.0
+'Rand': 35000.0
+'Chessington': 27226.72222222222
+'Bexleyheath': 22593.761904761905
+'Harrow': 30348.673611111117
+'Watlington': 19491.444444444445
+'Cayton Bay': 15360.0
+'Saltash': 17531.444444444445
+'Berwick-Upon-Tweed': 19477.285714285714
+'Hereford': 27451.34265734266
+'Hartley': 26000.0
+'Kings Hill': 30456.666666666668
+'Box': 21760.0
+'Auchterarder': 19500.0
+'Bideford': 21275.999999999996
+'Axmouth': 23500.0
+'Baillieston': 11884.0
+'Brixham': 26328.333333333332
+'Oldends': 37500.0
+'Lossiemouth': 24796.0
+'Hingham': 15360.0
+'Ballater': 18468.5
+'Midlothian': 35393.15789473685
+'North Widcombe': 32500.0
+'Chalfont St. Giles': 25985.2
+'Beccles': 29934.363636363636
+'Sheffield': 26476.311438278586
+'Park Royal': 25151.42857142857
+'Haverhill': 21040.66666666667
+'Chippenham': 27182.267175572528
+'Abbots Langley': 27823.709677419356
+'Loughton': 26490.640000000003
+'Shenfield': 24500.0
+'Furzedown': 15360.0
+'Long Stratton': 21364.0
+'Rastrick': 18000.0
+'Uttoxeter': 25392.67857142857
+'Stourbridge': 24750.999999999993
+'Wickford': 17579.6
+'Claverdon': 14250.0
+'Peasedown St. John': 11884.0
+'Thame': 22433.406779661025
+'Normanton': 24459.306122448983
+'Dorking': 25448.866666666672
+'Upper Basildon': 45000.0
+'Adlington': 16625.0
+'Tilbury': 24006.0
+'Deal': 19037.714285714286
+'Blaydon-On-Tyne': 34369.75000000001
+'East Barnet': 40000.0
+'Knebworth': 23666.0
+'Hatfield': 30084.50833333333
+'Campbeltown': 22080.0
+'St. Agnes': 19200.0
+'Henley-In-Arden': 20988.0
+'Warfield Park': 42410.0
+'Denton': 20980.0
+'Clitheroe': 18549.130434782608
+'Banwell': 14400.0
+'Tadley': 26873.78947368421
+'St. Leonards-On-Sea': 29321.0
+'New Cross': 35602.74999999999
+'Staines': 34790.31578947368
+'Liversedge': 14569.333333333334
+'Hayling Island': 31498.285714285714
+'Spilsby': 13568.5
+'Handbridge': 40379.99999999999
+'Herne Bay': 21319.5625
+'Whiteway': 35500.0
+'Earls Colne': 16388.571428571428
+'Kidbrooke': 19000.0
+'York': 25217.46967895362
+'Dunblane': 19532.0
+'Long Sutton': 22000.0
+'Hayes': 39337.5
+'Newcastle Upon Tyne': 28642.815827338094
+'Low Common': 20000.0
+'Aldham Tye': 24173.0
+'New Holland': 35248.0
+'Seaton Burn': 25392.0
+'Cuttifords Door': 42500.0
+'Helston': 16885.5625
+'Castle Bromwich': 23040.0
+'Sherbourne': 16300.0
+'Bath': 29879.80368098161
+'Brill': 24000.0
+'Prudhoe': 19637.6
+'Heanor': 25099.529411764706
+'Backwell': 9878.0
+'Barbican': 38678.4
+'Chelmsford': 27770.065445026186
+'Carnforth': 13651.545454545456
+'Arlesey': 34450.666666666664
+'South Cornelly': 34868.8
+'Ruddington': 27400.0
+'Malpas': 16088.0
+'Gaddesden Row': 11500.0
+'Leconfield': 20143.0
+'Silksworth': 15215.0
+'Southall': 32713.653846153848
+'Hookwood': 15000.0
+'Buxton': 25626.94117647059
+'Eynsham': 24456.2
+'Hapton': 21000.0
+'Muswell Hill': 18500.0
+'Sway': 18240.0
+'South Mimms': 20486.0
+'Robertsbridge': 15488.5
+'Mytholmroyd': 18500.0
+'Ashington': 24516.47058823529
+'North Yorkshire': 31456.804245283027
+'Chiddingstone Causeway': 20000.0
+'Horam': 23068.0
+'Water Orton': 25440.0
+'Cameron': 22500.0
+'Sandhurst': 24651.11111111111
+'Glasgow East Investment Park': 44477.968750000015
+'Taffs Well': 31680.0
+'East Leake': 15552.0
+'Chilwell': 11884.0
+'Manvers': 25000.0
+'Polegate': 13861.4
+'Egremont': 35600.0
+'Ellesmere': 27796.0
+'Longhope': 21060.0
+'Stevenstone': 16108.5
+'Donaghadee': 19510.333333333332
+'Badminton': 30000.0
+'Leslie': 23040.0
+'Filton': 31250.0
+'Morton': 22000.0
+'Mold': 21362.666666666668
+'Northfield': 5088.0
+'Peterborough': 26207.757861635204
+'Ewell': 22914.0
+'Barnes': 26625.0
+'Mayfair': 40613.84615384615
+'Hebden Bridge': 16216.166666666666
+'Barnet': 27637.732394366198
+'Sandycroft': 11884.0
+'Borehamwood': 29398.82
+'Ulceby': 23385.0
+'South Queensferry': 18470.0
+'Tuttington': 32153.846153846152
+'Harpenden': 25183.38888888889
+'Wymondham': 14692.142857142857
+'Witney': 26295.29007633587
+'Huyton': 23706.666666666668
+'Longtown': 14400.0
+'North Ripley': 25470.0
+'Llanelli': 24435.571428571428
+'Pinchbeck': 15360.0
+'Tiptree': 12308.0
+'Chatteris': 25608.266666666666
+'Coleford': 20488.8
+'Lynmouth': 12000.0
+'Worle': 153600.0
+'Hartford': 24960.0
+'Fawley': 47500.0
+'Halesworth': 16411.625
+'Nantwich': 22945.488888888893
+'Hadfield': 19000.0
+'Ryton On Dunsmore': 20160.0
+'Norfolk': 33095.720930232565
+'Dulwich': 27928.571428571428
+'Gipsy Hill': 55565.4
+'Usk': 26234.4
+'Drybrook': 29000.0
+'Elland': 20242.14285714285
+'Little Chesterford': 44136.36363636363
+'Axbridge': 44495.13888888889
+'Ilkley': 20958.499999999996
+'Wallasey': 21039.84210526316
+'Welford On Avon': 19500.0
+'Croxley Green': 15000.0
+'Winscombe': 30400.0
+'Bargate': 25500.0
+'Watchet': 26000.0
+'Falkirk': 20533.59375
+'Emsworth': 25964.0
+'Knottingley': 21835.0
+'Stanley': 24416.8
+'Heathrow': 40671.60714285715
+'Shifnal': 17112.285714285714
+'Craigavon': 22602.923076923074
+'Hengoed': 15885.0
+'Camelford': 11884.0
+'The Trafford Centre': 14500.0
+'North Warnborough': 35000.0
+'Mill Hill East': 40836.333333333336
+'Burford': 17878.73333333333
+'Antony Estate': 31100.0
+'Newcastle-under-Lyme': 20754.653061224486
+'Peebles': 21520.0
+'Guisborough': 18839.0
+'Wycombe': 33000.0
+'Banbridge': 20533.5
+'Kew': 26000.0
+'St. Neots': 26961.302325581393
+'Holloway': 15072.0
+'Stone': 25951.052631578943
+'Trimley St. Mary': 39727.27272727273
+'Riverhead': 40666.666666666664
+'Great Barr': 6000.0
+'Blakeney': 28000.0
+'Burley Woodhead': 13440.0
+'Castle Combe': 32500.0
+'Bromborough': 22250.0
+'Marske': 50500.0
+'Bolton Le Sands': 24288.539325842696
+'Westfield': 21750.0
+'Edwalton': 29000.0
+'Much Hadham': 14273.0
+'Brampton': 39666.666666666664
+'Livingston Village': 49234.37499999999
+'Whitefield': 15000.0
+'Old Aberdeen': 55294.53846153846
+'Dinnington': 15491.0
+'Southwater': 67800.0
+'Quinton': 33750.0
+'Sutton Coldfield': 24134.430379746835
+'Finchampstead': 15360.0
+'Wisley': 25000.0
+'Bradwell-On-Sea': 6000.0
+"St John's Wood": 27642.857142857145
+'Aberdeenshire': 38624.19863013699
+'Blaenau Ffestiniog': 55609.33333333333
+'Paignton': 18255.464285714283
+"Irlams O' Th' Height": 45555.555555555555
+'East Dean': 22881.5
+'Gwynedd': 30818.0
+'Llangefni': 37950.0
+'South Ockendon': 26130.5
+'Altrincham': 22597.29203539823
+'Hollywood': 28012.0
+'Ilminster': 19933.0
+'Norwell': 25000.0
+'Chathill': 23528.0
+'Woodley': 14160.0
+'Abington': 25000.0
+'Sutton Green': 29477.505617977542
+'South Shields': 23056.836734693883
+'West End': 40785.961538461546
+'Longfield': 20680.222222222226
+'Castlebay': 9077.0
+'Iwerne Courtney': 24000.0
+'Bracebridge': 13440.0
+'Ashton With Stodday': 11884.0
+'Caldicot': 17604.333333333336
+'Caddington': 16320.0
+'Wall Hill': 36875.0
+'Cookham Dean': 12000.0
+'Bellshill': 32571.27272727272
+'Royston': 31044.843750000004
+'Crawley': 32075.018867924533
+'Calne': 27352.615384615387
+'Otterbourne': 19500.0
+'South Hampstead': 18000.0
+'Barrow Upon Soar': 15360.0
+'Lyme Regis': 26373.75
+'Maidenhead': 32748.0
+'Kirknewton': 41700.0
+'Knowsley': 28883.157894736843
+'North West England': 42829.96226415092
+'Girton': 57500.0
+'Lemington': 29298.0
+'The Mounts': 31680.0
+'Llangollen': 19286.666666666668
+'Ampney Crucis': 17500.0
+'Philadelphia': 95000.0
+'Scotter Common': 12460.0
+'Fairford': 18875.0
+'Aylesbury': 28503.35905044508
+'Cwm': 32500.0
+'Kidderminster': 23167.66666666666
+'Westbury-On-Trym': 14500.0
+'Little Marlow': 41333.333333333336
+'East End Green': 42400.0
+'Canwick': 12672.0
+'Langley': 26430.0
+'The Doward': 27577.5
+'Banham': 11520.0
+'Anstruther': 23819.375
+'West Runton': 30000.0
+'St. Leonards': 34918.0
+'Byley': 12000.0
+'North Standen': 54750.0
+'Isle Of Grain': 13440.0
+'Rugby': 26220.361445783135
+'Surrey Research Park': 21726.0
+'Kidwelly': 16000.0
+'Walton West': 33466.666666666664
+'Frodsham': 15581.846153846156
+'Cottingham': 13962.0
+'Dunstable': 26708.317460317452
+'Sandwell': 32880.0
+'Ross-On-Wye': 18946.937499999996
+'Stillington': 16000.0
+'Suffolk': 34390.86311787075
+'Weston': 26537.5
+'Bramley': 13104.0
+'Holbeck': 16000.0
+'Isle Of Skye': 21833.333333333332
+'Ballycastle': 18333.333333333332
+'Bagshot': 26233.08571428571
+'Nairn': 14666.0
+'Hailsham': 20640.863636363636
+'Stratford-Upon-Avon': 23915.89947089947
+'Carshalton': 12082.666666666666
+'Barry': 25406.1
+'Kenn': 39500.0
+'Hildenborough': 20100.0
+'Kent': 38415.28207051766
+'Shoreham': 18750.0
+'North Lambeth': 34280.44880174297
+'Purton': 32500.0
+'Brookwood': 22560.0
+'Knighton': 11884.0
+'Seaton': 46200.0
+'Wellesbourne': 21000.0
+'Hull': 29296.99056603774
+'Brislington': 25500.0
+'Harwich': 31204.444444444445
+'Arlington': 72500.0
+'Thames Ditton': 33310.87500000001
+'Wincanton': 25458.736842105263
+'Broom': 27000.0
+'West Kensington': 27500.0
+'Largs': 25433.41176470588
+'Sturminster Newton': 16980.0
+'Uckfield': 25680.64705882353
+'Westham': 19000.0
+'Henfield': 19982.0
+'East Goscote': 18060.666666666668
+'Stockhill': 32500.0
+'Clapham': 38611.11111111111
+'Wooburn Industrial Park': 25916.666666666668
+'Welwyn Garden City': 31739.397590361452
+'Wirral': 23079.505154639173
+'Port Seton': 32500.0
+'Sudbury': 23069.549019607846
+'Radcliffe': 35000.0
+'Northolt': 12480.0
+'Eastgate': 12595.0
+'Angel': 30000.0
+'Highbridge': 21038.46153846154
+'Little Ellingham': 25000.0
+'Woods Green': 29000.0
+'Midsomer Norton': 27500.0
+'Manchester': 30109.152445961317
+'Staplehurst': 24520.0
+'Sherburn': 12480.0
+'Brooklands': 13372.0
+'Aintree': 30000.0
+'Biddulph': 26250.0
+'South West England': 40666.78076062643
+'Nechells': 15166.666666666666
+'Chepstow': 22126.0
+'Congleton': 20271.871794871797
+'West Allington': 72500.0
+'Hollesley': 12672.0
+'Warmingham': 15500.0
+'Tavistock': 17923.375
+'Crowthorne': 18985.909090909092
+'Kilmuir': 36050.0
+'Tarbert': 30000.0
+'Mitcheldean': 23909.25
+'Leeds': 28934.84122316966
+'New Romney': 12599.5
+'Oakington': 35000.0
+'Mile End': 72213.0
+'Kinross': 22259.5
+'Harlow': 27620.110169491527
+'Desford': 20610.0
+'Port Solent': 14942.0
+'Easingwold': 15542.0
+'Chobham': 20512.0
+'Haddington': 18493.666666666668
+'Lyme Green': 26833.333333333332
+'Northumberland': 32393.151515151516
+'Warminster': 28929.86046511629
+'South Milford': 24379.125
+'Bromyard': 33701.71428571428
+'Redhill': 31295.12546125463
+'Lewes': 26675.481012658223
+'Northants': 32750.0
+'Wyboston': 26023.75
+'Londonderry': 34967.15
+'Cairndow': 14589.333333333334
+'Northfleet': 30500.0
+'Shepperton': 22184.583333333332
+'Watford': 29849.415000000005
+'Maldon': 28085.483870967742
+'Bishop Auckland': 24333.259259259255
+'Stoke Poges': 12240.0
+'Windlesham': 32500.0
+'Christs Hospital': 39166.666666666664
+'Chalgrove': 13440.0
+'Torry': 25977.0
+'Whiteley': 30285.714285714286
+'Healey': 33762.75
+'Northchapel': 23000.0
+'Lauder': 20160.0
+'Cliddesden': 37370.37037037037
+'Thurmaston': 13740.0
+'Cornwell': 20500.0
+'Chipping Norton': 28394.463414634152
+'Lochgilphead': 19813.0
+'Ullenhall': 13440.0
+'Chorley': 19746.42446043166
+'Wisbech': 23872.326086956527
+'Newport-On-Tay': 28551.22222222222
+'London Stansted Airport': 38562.5
+'West Wycombe': 24000.0
+'Lindrick Common': 9475.0
+'Earls Barton': 50000.0
+'Waterlooville': 26853.648148148146
+'Leominster': 20716.785714285714
+'Batley': 24261.69090909091
+'Low Seaton': 22000.0
+'Brentford': 37302.60975609756
+'Aston Crews': 30000.0
+'Forest Row': 26201.0
+'Cantley': 22080.0
+'Faygate': 17280.0
+'Braintree': 22114.718750000007
+'Lancing': 24567.75
+'Dumfries & Galloway': 39499.625
+'Thornaby': 11884.0
+'Liskeard': 23320.5
+'Hordley': 12288.0
+'Corwen': 16389.5
+'Tonbridge': 25035.796296296296
+'West Bradford': 50000.0
+'Canary Wharf': 55761.76470588235
+"Bishop's Stortford": 25155.317073170732
+'Lostwithiel': 16320.0
+'Hotwells': 39999.0
+'Waterglade Industrial Park': 33250.0
+'Comberton': 20534.0
+'Dunoon': 17120.333333333332
+'Benham Hill': 55000.0
+'Carrington': 23980.0
+'Holmer': 27500.0
+'Ashford': 26960.430693069302
+'Chester Le Street': 29164.555555555555
+'Southampton International Airport': 37105.200000000004
+'Wool': 17875.0
+'Coulsdon North': 58000.0
+'Dunmow': 20182.5
+'Aldford': 17375.0
+'Flixborough': 18500.0
+'Leatherhead': 30664.664864864855
+'Dunfermline': 25071.557894736845
+'Chard': 28908.727272727272
+'Quebec': 90000.0
+'Hardwick': 20855.0
+'Brechin': 28216.25
+'Tullyhogue': 7342.0
+'Shipley': 21293.851851851854
+'Yearby': 30265.0
+'Dornoch': 8832.0
+'Skelmersdale': 23609.890410958902
+'Westgate-On-Sea': 28500.0
+'Toomebridge': 15000.0
+'Freshwater': 13440.0
+'Biggin Hill Airport': 23000.0
+'Withcall': 42940.0
+'Handforth': 20000.0
+'Hampton': 29429.25
+'Scalloway': 31998.0
+'Pudsey': 25072.315789473687
+'Todmorden': 24978.333333333332
+'Carlton': 27960.0
+'Shoreditch': 30354.117647058825
+'South East London': 41530.17348245562
+'Forfar': 28263.333333333332
+'Rushton': 32000.0
+'Verwood': 21703.333333333336
+'Port Charlotte': 84500.0
+'East Rolstone': 49150.0
+'Stonesfield': 16944.0
+'Galashiels': 27547.44444444445
+'Llanwrda': 13488.0
+'Enfield': 27149.28301886793
+'Wingland': 19000.0
+'Sandwich': 32048.500000000004
+'Perranporth': 22245.0
+'Denmark Hill': 33812.5
+'Reigate': 33370.951456310686
+'Ebbw Vale': 25355.909090909096
+'Stanford On Soar': 38555.555555555555
+'Wythenshawe': 16804.333333333332
+'Dymock': 29000.0
+'Newcastle': 42763.333333333336
+'Southend': 39538.0
+'Dumfries': 22117.345454545448
+'Pell Wall': 17500.0
+'Kegworth': 23456.0
+'Chalk Farm': 27100.0
+'Tackley': 18000.0
+'Bargoed': 22666.6
+'Waltham Cross': 27633.869565217396
+'Kings Norton': 31094.0
+'New Longton': 10000.0
+'Whitehaven': 35266.1935483871
+'Thatcham': 20779.461538461543
+'Tenbury Wells': 17510.0
+'London': 43429.14969530203
+'Huntly': 30073.454545454544
+'Lasswade': 20457.8
+'Milltimber': 37000.0
+'Hadleigh': 25403.0
+'Redcar': 23801.26190476191
+'Wormley': 45000.0
+'Cricklade': 15360.0
+'Whitchurch': 21685.322580645156
+'Heywood Distribution Park': 18000.0
+'Denbighshire': 28427.272727272728
+'Swansea': 23718.174999999996
+'Bradford-On-Avon': 31174.42857142857
+'Southwell': 25941.333333333332
+'Mickle Trafford': 17042.0
+'Southfleet': 18500.0
+'Brentwood': 31195.338983050853
+'South Tottenham': 28000.0
+'Cleator': 17280.0
+'Merton': 28588.181818181823
+'North Woolwich': 60506.666666666664
+'Worthing': 28985.58847736626
+'Newmarket': 24506.68085106383
+'Whittington Moor': 31908.0
+'Louth': 23972.36842105263
+'Aldeburgh': 21675.0
+'Criftins': 36500.0
+'Shetland': 23182.857142857145
+'Oswestry': 17698.61290322581
+'Methley': 30259.0
+'Cleveley': 18220.666666666668
+'Selby Common': 35000.0
+'South Acton': 28000.0
+'Tranent': 20800.166666666668
+'Ripley': 22462.749999999996
+'Two Mile Ash': 40604.1935483871
+'Seaford': 30956.0
+'Cricklewood': 47250.0
+'Windermere': 18835.904761904756
+'Leigh': 17826.433333333334
+'Holywell': 21821.88888888889
+'Cumbria': 36491.88235294117
+'Inverness': 29718.564705882356
+'Leckhampton': 17000.0
+'Whittlebury': 45120.0
+'Rusholme': 45000.0
+'Harvey Gardens': 36613.0
+'Laindon': 20000.0
+'Newquay': 24356.086956521736
+'Little London': 40256.76923076923
+'Grangemouth': 34292.636363636375
+'North Waltham': 36260.0
+'Gretna': 17000.0
+'Goldthorpe': 13142.0
+'Skipton': 24015.724137931044
+'Aberfeldy': 23700.0
+'Haywards Heath': 27217.09923664123
+'Bow Street': 19875.0
+'Stokesley': 21461.333333333332
+'Litherland': 28800.0
+'Bridgnorth': 24269.050000000003
+'Great Bridge': 11760.0
+'Jarrow': 25901.44
+'Fishguard': 12048.0
+'Penge': 30800.0
+'Ottershaw': 15762.0
+'Warton': 61440.0
+'Billingshurst': 20417.375
+'Ardrossan': 21427.0
+'Tidworth': 33715.5
+'Church Stretton': 13780.5
+'Macclesfield': 26184.683962264146
+'Dundee Technology Park': 40500.0
+'Buckinghamshire': 37488.081015719465
+'The Home': 23000.0
+'Kincardine': 26880.0
+'West Lothian': 30825.144329896902
+'Isle Of Barra': 15609.0
+'St. Mary Cray': 29000.0
+'St. Fagans': 12000.0
+'Haydock': 38500.0
+'Canterbury': 27697.808917197457
+'Whitley Bay': 24065.2
+'Saundersfoot': 20000.0
+'Orkneys': 34375.0
+'Southgate': 29000.0
+'Derbyshire': 32870.45243128967
+'Pulborough': 21365.842105263157
+'Little Alne': 21000.0
+'Stockton': 21000.0
+'Barnehurst': 11884.0
+'Old Trafford': 18510.428571428572
+'Walthamstow': 31611.5
+'Taunton': 26845.264084507053
+'Stalbridge': 14083.0
+'Lancaster': 26836.725000000002
+'Romford': 26605.65584415583
+'Newstead': 35000.0
+'Great Howarth': 30000.0
+'Leavesden': 42356.00000000001
+'Upper Heyford': 24000.0
+'Faringdon': 21870.666666666668
+'Newby East': 37500.0
+'Saltburn-By-The-Sea': 65710.0
+'Cleethorpes': 32640.0
+'Knightsbridge': 31680.0
+'Stockbridge': 18632.000000000004
+'Charing Cross': 29750.0
+'Greenhithe': 24945.466666666667
+'Ratcliffe-On-Soar': 33600.0
+'Eaton Ford': 40000.0
+'Baldock': 24082.090909090908
+'Morpeth': 24676.880952380958
+'Chellaston': 30000.0
+'Woodford Green': 25066.733333333334
+'Burnley': 23420.515923566887
+'Belsize Park': 35040.0
+'Yeovilton': 21000.0
+'Bunbury': 26250.0
+'South Bermonsey': 70000.0
+'Minehead': 22488.000000000004
+'Gronant': 42500.0
+'Frinton-On-Sea': 45500.333333333336
+'Swadlincote': 26366.064516129034
+'Malvern': 25078.763157894737
+'Ashburton': 32928.0
+'Tottenham': 27000.0
+'Consett': 20273.1875
+'Redruth': 29407.687499999996
+'Wellingborough': 22788.27678571429
+'Sleaford': 24770.36585365853
+'Goring-By-Sea': 13440.0
+'Wallington': 26494.375
+'Bewdley': 27000.833333333332
+'Walsgrave On Sowe': 38125.0
+'Plymouth': 26887.89328063241
+'Fleetwood': 16728.22222222222
+'Flitwick': 13080.0
+'Builth Wells': 21458.333333333332
+'Ammanford': 16169.999999999998
+'Kingussie': 16478.0
+'Kirkby': 15942.0
+'Goodwick': 16800.0
+'Bransty': 25000.0
+'Greenford': 24977.70588235294
+'Stancil': 28800.0
+'Street': 23590.9
+'Maesteg': 20633.333333333332
+'Grays': 25932.98039215686
+'Swindon': 33224.00667556739
+'Llandyrnog': 13286.0
+'Marehay': 11904.0
+'Meopham': 26400.0
+'Cumnock': 15289.4
+'Lytham': 25755.142857142855
+'Stirchley': 12604.0
+'Little Oakley': 15000.0
+'Northallerton': 26183.386666666665
+'Berrycroft': 25000.0
+'Tarleton': 19000.0
+'Rochdale': 25753.35555555556
+'Newtown': 18259.666666666668
+'Hoddesdon': 22837.88636363636
+'Coscote': 45550.08695652172
+'Hockley': 19044.25
+'Harmondsworth': 29000.0
+'Walton On The Naze': 19680.0
+'Newtownabbey': 21681.333333333332
+'Ongar': 26723.833333333332
+'Shepton Mallet': 26805.692307692305
+'West Halton': 62499.0
+'Collyhurst': 20160.0
+'Kettering': 24612.917050691252
+'Invergordon': 27716.8
+'Ferndown': 21767.28571428571
+'Luton': 34252.44202898551
+'Abertillery': 21561.5
+'Angus': 31734.8
+'North Anston': 21590.0
+'Sale': 18988.80555555555
+'Llandaff North': 36369.97777777776
+'Shipton-Under-Wychwood': 23760.0
+'Queen Adelaide': 65000.0
+'Tywyn': 22464.0
+'Shaftesbury': 20926.391304347828
+'West Ravendale': 42139.15
+'Lingfield': 25684.000000000004
+'Rotherham': 24047.94084507043
+'Worksop': 27672.03092783505
+'Hartlepool': 27117.000000000004
+'Sapperton': 23000.0
+'Witham': 20601.816666666666
+'Nottingham': 28831.782701548367
+'Eastbourne': 24797.121019108283
+'Cwmbran': 25173.818181818177
+'Tyn-Y-Gongl': 12601.333333333334
+'Offham': 47202.0
+'Springside': 30000.0
+'Garston': 19000.0
+'Castlereagh': 20833.333333333332
+'North Muskham': 34580.0
+'North Hykeham': 32000.0
+'Westcliff-On-Sea': 31282.4
+'Redditch': 25151.717277486903
+'Denver': 100000.0
+'Leyton': 18240.0
+'Annan': 39768.75
+'West Markham': 29000.0
+'South East England': 45128.27539779679
+'Bude': 18962.5
+'Welling': 20000.0
+'Castle Cary': 30156.25
+'Bourn': 15791.0
+'Limavady': 21024.0
+'Buckingham': 27521.043478260868
+'Chilton': 31764.0
+'Alva': 18500.0
+'Isle Of Wight': 43133.58865248225
+'Bircham Newton': 8737.0
+'Sedgefield': 35000.0
+'Stevenage': 38625.40114613184
+'Exning': 29500.0
+'Welshpool': 25701.375
+'Medway City Estate': 30125.0
+'Godalming': 27415.329999999984
+'Battle': 25391.11111111111
+'Alderley Edge': 23459.069767441855
+'Flax Bourton': 19852.0
+'West Stockwith': 27125.0
+'Shetlands': 29722.0
+'Rockbeare': 15086.0
+'Northampton': 26706.142717497558
+'Victoria Docks': 23500.0
+'Cupar': 22710.692307692312
+'Culloden': 15400.0
+'Ripon': 21481.0
+'Mortimer West End': 28000.0
+'Glenluce': 16070.0
+'Southam': 25022.0
+'Tingley': 28773.333333333332
+'Sawtry': 25416.0
+'Bungay': 18000.0
+'Desborough': 21750.0
+'Pode Hole': 42333.333333333336
+'Richmond': 30922.23369565217
+'Ballymena': 25974.0
+'Conwy': 33150.083333333336
+'Banchory': 25831.166666666668
+'Bedfordshire': 37400.750000000015
+'Fort William': 16202.75
+'Hampton Hill': 14500.0
+'Lower Basildon': 16320.0
+'Sompting': 33461.538461538454
+'London Colney': 40300.0
+'Bradley Cross': 20500.0
+'Barnwood': 26731.5
+'Llanidloes': 13920.0
+'Lesnes Woods': 14400.0
+'Ballyclare': 30000.0
+'Princes Risborough': 31815.909090909092
+'Sawston': 22360.8
+'Portadown': 15000.0
+'Hammersmith': 35432.62499999999
+'Helmshore': 18000.0
+'Cheltenham Trade Park': 46792.94117647058
+'Mountain Ash': 23873.5
+'Shropshire': 30552.733333333323
+'Attleborough': 22322.38461538461
+'Fleet': 36506.427586206875
+'Porters Wood': 18000.0
+'Leamouth': 53500.0
+'Bridlington': 41691.49999999999
+'Tayport': 29750.0
+'Brighton Marina Village': 13000.0
+'Shiremoor': 31338.0
+'Market Deeping': 15582.0
+'Swiss Cottage': 15720.0
+'Maidstone': 28665.854838709707
+'North Piddle': 47800.0
+'Clydebank': 20966.399999999998
+'Brighouse': 26057.275862068964
+'Wiveliscombe': 18500.0
+'Clapham Junction': 38137.5
+'Wokingham': 28830.579617834388
+'Bloomsbury': 28000.0
+'Swanley': 38046.24000000002
+'Weston-Super-Mare': 29895.927272727273
+'Scunthorpe': 24747.255319148935
+'Camden Town': 27093.333333333332
+'Aveley': 21500.0
+'Glasgow': 32103.267116682746
+'Nailsea': 17090.0
+'Paisley': 20727.56097560975
+'Exmouth': 22362.80769230769
+'Kirkham': 23150.0
+'Horbury': 17000.0
+'Elvington': 14750.0
+'Greater Manchester': 36130.99999999998
+'Fulham': 26904.08695652174
+'Dalkeith': 22912.266666666663
+'Sutton Scotney': 26400.0
+'Broughton': 26000.0
+'Chewton Keynsham': 29217.0
+'Aldridge': 16666.666666666668
+'Newnham': 40307.692307692305
+'Clowne': 17000.0
+'Forres': 27290.0
+'Achmore': 34211.0
+'Brough': 25900.0
+'Liss': 23968.75
+'Seacroft': 13900.0
+'Folkestone': 23298.975
+'Sedbergh': 15184.0
+'Stonely': 24618.11111111111
+'Docklands': 37524.61538461538
+'Stowmarket': 25052.633333333335
+'Wotton-Under-Edge': 32532.941176470584
+'Great Yarmouth': 31481.67073170732
+'Pontyclun': 15625.25
+'Belle Isle': 17000.0
+'Chingford': 22812.923076923078
+'Launton': 15500.0
+'White City': 20386.4
+'Overdale Park': 29500.0
+'Isle Of Iona': 43000.0
+'Torpoint': 18640.0
+'Central Treviscoe': 44500.0
+'Eccles': 17165.42857142857
+'Towcester': 23987.609756097558
+'East End': 40800.0
+'Padiham': 11884.0
+'Haslingden': 17472.0
+'Aboyne': 29691.9
+'North Mymms': 47500.0
+'Talsarnau': 17280.0
+'Moorgate': 26909.090909090908
+'Gorseinon': 12144.0
+'Dingwall': 22379.0
+'Kingswinford': 21070.666666666664
+'Mitcham': 22670.5
+'Walton-On-Thames': 27492.281690140848
+'Haultwick': 46333.333333333336
+'March': 29498.547619047615
+'North Wingfield': 23000.0
+'Marlborough': 23414.777777777774
+'Leitrim': 55000.0
+'Wareham': 20713.42105263158
+'Leyland': 23052.488372093023
+'Abram': 20160.0
+'East Ayrshire': 23840.0
+'Crayford': 23450.0
+'Forest Hill': 12000.0
+'Furness Vale': 13440.0
+'Tremough': 15303.0
+'Bournemouth': 27840.983988355176
+'Little Bromley': 43291.666666666664
+'Mottram St. Andrew': 25937.5
+'Tockwith': 18000.0
+'East Midlands': 38180.22816593877
+'Diss': 22964.055555555555
+'Stoke Mandeville': 21120.0
+'Midhurst': 23543.78571428571
+'Gullane': 32040.0
+'Skegness': 23806.206896551725
+'Hersham': 28833.333333333332
+'Moor Row': 72000.0
+'Mauchline': 20160.0
+'Bilston': 27273.21621621622
+'Lambeth': 31068.71698113208
+'Blaby': 15000.0
+'Oldham': 25988.34065934065
+'Halton': 52982.0
+'Tredegar': 24851.899999999998
+'Sherborne': 21652.0
+'Harston': 25024.0
+'Crewkerne': 26206.5
+'Reading': 34878.074531321494
+'Crymych': 15725.0
+'Covent Garden': 40528.5306122449
+'Oxford Circus': 55000.0
+'Dorchester': 28152.159420289856
+'Biggleswade': 19872.217391304348
+'Newton Solney': 47500.0
+'Penkridge': 19333.333333333332
+'Broughton Astley': 14208.0
+'Ryde': 51480.0
+'Mossley': 22500.0
+'Weybridge': 28794.891472868203
+'Deane': 42676.47058823529
+'Salcombe': 13455.0
+'Ashton-Under-Lyne': 21327.439999999995
+'Alford': 26800.0
+'Tooting': 43485.0
+'Bonnyrigg': 17337.8
+'Mop End': 38772.72727272727
+'Ascot': 22441.81818181818
+'Nursted': 35000.0
+'Larne': 26666.666666666668
+'West Molesey': 23250.0
+'Dinas Powys': 34000.0
+'Peterhead': 25262.30434782609
+'Bilborough': 22964.0
+'Boston': 27675.28813559323
+'Brentor': 35000.0
+'Penrith': 22285.200000000004
+'Perivale': 26250.0
+'Glossop': 21564.681818181816
+'Corsham': 28314.269230769238
+'Bonar Bridge': 12480.0
+'Derry': 23147.058823529413
+'Cardiff International Airport': 26001.0
+'Pershore': 19912.36363636364
+'New Durham': 35625.0
+'Oxford Airport': 26520.0
+'Chesterton': 39925.0
+'St. Ives': 20108.52
+'West Kingsdown': 27270.0
+'Impington': 17500.0
+'Cliftonville': 32290.666666666664
+'Woodthorpe': 40355.55555555556
+'Nant Gwynant': 12662.0
+'Crickhowell': 13440.0
+'Blythe Valley Park': 15936.0
+'Sandbach': 20955.764705882357
+'Isles Of Scilly': 29816.666666666664
+'Moray': 43752.0
+'Stanmore': 22697.0
+'Port Talbot': 22024.519999999997
+'Rowsley': 14208.0
+'Sheerness': 24583.666666666668
+'Hunslet': 17280.0
+'Stockport': 23888.609907120746
+'St. Columb': 14960.0
+'Lancashire': 33916.158179848324
+'Newry & Mourne': 23500.0
+'Cleckheaton': 24030.06896551724
+'Carluke': 15880.0
+'Chesham': 19439.78125
+'Bovingdon': 17500.0
+'Wandsworth': 32335.0
+'Pevensey': 13660.5
+'West Dulwich': 12500.0
+'Belper': 21685.354838709678
+'Surbiton': 21568.4
+'Isle Of Anglesey': 29039.333333333336
+'Hoveton': 13440.0
+'Renfrewshire': 27378.222222222223
+'Grizedale': 11884.0
+'Alcester': 22870.466666666667
+'Douglas': 33625.0
+'Carterton': 24480.0
+'Burton Joyce': 14496.0
+'Speke': 21000.0
+'Beaconsfield': 26996.040816326527
+'Melbourn': 21000.0
+'Cambuslang': 18240.0
+'South Hanningfield': 20000.0
+'Stonehouse': 24457.018518518522
+'Lowfield Heath': 49875.0
+'North Lincolnshire': 39499.75
+'Hitchin': 28381.019230769234
+'Countesthorpe': 14640.0
+'Longstanton': 12466.0
+'Shamley Green': 16320.0
+'Nayland': 16320.0
+'Market Drayton': 20687.5
+'Guildford': 33336.21903881701
+'New Milton': 26060.17391304348
+'Rhyl': 20746.16666666667
+'Troon': 13382.0
+'Walton-Le-Dale': 54880.0
+'The Upper Wyke': 71250.0
+'Havering-Atte-Bower': 30777.17647058823
+'Dentons Green': 22500.0
+'Coventry': 30038.245922208287
+'Headley Down': 15110.0
+'Shefford': 23751.5625
+'Church Stoke': 15240.0
+'Halesowen': 21220.617021276594
+'Workington': 30128.282051282054
+'Heathrow Airport': 25131.333333333332
+'Barking': 26760.396226415094
+'Tiverton': 24863.06451612903
+'Egypt': 21870.0
+'Denwick': 25000.0
+'Huntingdon': 27418.06918238995
+'Llangennech': 37565.0
+'Longbenton': 16277.0
+'Lopen': 17280.0
+"Bo'ness": 12576.0
+'Monkton Heathfield': 11904.0
+'Ham': 28551.0
+'Brigg': 19383.714285714286
+'Gaydon': 46290.495412844044
+'Churchtown': 23000.0
+'Saxmundham': 27466.166666666664
+'Dartmouth': 25645.25
+'Eccleshall': 18453.0
+'Ford': 42455.555555555555
+'West Timperley': 28916.666666666668
+'Holywood': 21024.0
+'Hindley': 10200.0
+'Creswell': 26871.0
+'Glastonbury': 22924.312499999993
+'Wheatley': 23040.0
+'Brackley': 25190.342857142856
+'Oldbrook': 21000.0
+'Cuckfield': 23000.0
+'Arundel': 28226.57446808511
+'Cosford': 19341.0
+'Whitby': 16684.19047619048
+'Duns': 12965.0
+'St Lukes': 36633.333333333336
+'County Antrim': 31700.0
+'Randalstown': 40000.0
+'Surrey': 38520.503128911165
+'Torfaen': 35851.0
+'Long Marston': 16800.0
+'Pembury': 47040.0
+'Caerphilly': 21671.018867924533
+'Lightwater': 21173.333333333332
+'North Cave': 13000.0
+'Upper Walthamstow': 25500.0
+'Antrim': 29177.955555555556
+'Benmore': 21133.0
+'Banstead': 20774.42105263158
+'Newtownards': 16488.0
+'Monmouthshire': 26611.058823529413
+'Heriot': 35000.0
+'Wellington College': 28756.0
+'Lane End': 38400.0
+'Whalley': 35308.0
+'Westlake': 42500.0
+'East Hanningfield': 39666.666666666664
+'Crick': 17766.666666666668
+'Crystal Palace': 31200.0
+'Barnoldswick': 19387.714285714283
+'Tilbury Juxta Clare': 28800.0
+'Featherstone': 26150.0
+'Kirkby Stephen': 20160.0
+'Rochester': 29352.576923076922
+'New Haw': 14000.0
+'Bounds Green': 26250.0
+'Mancetter': 55000.0
+'Treharris': 21179.5
+'Tain': 72000.0
+'Coxheath': 16118.0
+'West Byfleet': 32416.0
+'Cockburnspath': 25250.0
+'Slough': 32667.850877193032
+'Yarnton': 30235.6
+'Petersfield': 26006.27450980392
+'New Barnet': 26191.2
+'Shortlands': 63437.49999999999
+'Woodside': 46684.78260869565
+'Bromsgrove': 23172.188235294114
+'Fenstanton': 32500.0
+'Dagenham': 30888.944444444453
+'South Normanton': 45830.0
+'Crook': 17952.0
+'Park': 65000.0
+'Dereham': 19105.0
+'Partington': 18000.0
+'Holmrook': 57600.0
+'Colchester': 26648.862573099406
+'Merthyr Tydfil': 26450.3
+'Burnham-On-Crouch': 30950.75
+'Southampton': 31455.590909090915
+'Basingstoke': 30820.54187192118
+'West Lockinge': 50000.0
+'Blackburn': 26161.637254901958
+'Pencoed': 19000.0
+'Yeovil': 25207.283950617268
+'Bearsden': 23040.0
+'Isle Of Bute': 17256.0
+"King's Lynn": 23914.24719101124
+'Upleadon': 20448.0
+'New Quay': 30000.0
+'Lower Sydenham': 32093.0
+'Newton In Furness': 37500.0
+'Edenbridge': 24382.95238095238
+'Glanton': 14400.0
+'St. Mellons': 24036.0
+'Downham Market': 23941.666666666664
+'Carryduff': 20000.0
+'Falmer': 28641.0
+'Great Usworth': 30500.0
+'Thurso': 45504.0
+'Lea Bridge': 37081.16666666668
+'Monxton': 36500.0
+'Kirkcaldy': 22800.457142857143
+'Lindfield': 42625.0
+'Stoke Newington': 17280.0
+'Ilchester': 20500.0
+'Lympstone': 40000.0
+'Gibraltar': 29178.571428571428
+'Dartford': 29799.594488188988
+'Barwell': 21500.0
+'Docking': 37500.0
+'East Mersea': 40000.0
+'Somers Town': 57500.0
+'Knowle': 13440.0
+'Newton Stewart': 13802.0
+'Faversham': 24679.44444444444
+'Saltaire': 11884.0
+'Bracknell': 30412.984924623113
+'Farnborough': 34864.31067961168
+'Yetminster': 16000.0
+'Buckhurst Hill': 24891.0
+'Cheadle Hulme': 21133.333333333332
+'East Lothian': 25417.583333333332
+'California': 56016.0
+'Daventry': 21653.189189189186
+'South Croxton': 13440.0
+'Stourport-On-Severn': 27430.14285714286
+'Burwell': 21640.0
+'Great Canfield': 14853.2
+'South Thoresby': 62499.0
+'Edgware': 24425.0
+'Ladbroke Grove': 16800.0
+'Kingston Vale': 14764.0
+'Windsor & Maidenhead': 46567.27272727273
+'Llay': 25250.0
+'Rutland': 18524.5
+'Coniston Cold': 23000.0
+'Old': 50000.0
+'Bollington': 18000.0
+'Newtonmore': 22500.0
+'Tickhill': 12160.0
+'Kirkwall': 20713.399999999998
+'Colwick': 14400.0
+'The Headland': 19000.0
+'Studley': 35500.0
+'City': 38881.290322580644
+'Fermanagh': 26666.666666666668
+'Larbert': 13500.0
+'Oakley': 37000.0
+'Bletsoe': 19000.0
+'Chapel Allerton': 14880.0
+'Little Padfield': 20000.0
+'Cosby': 14640.0
+'Swindon Village': 29400.0
+'Back Of Avon': 19885.0
+'Norwich': 26029.114228456914
+'Blandford Camp': 21158.5
+'Neasden': 30750.0
+'Hackney': 28803.020000000008
+'South Killingholme': 26715.333333333336
+'Bethnal Green': 9360.0
+'Great Somerford': 26000.0
+'Blyth': 21790.91304347826
+'Girvan': 28605.5
+'Hinderwell': 13372.0
+'Dyce': 34500.0
+'Devonport': 37035.0
+'Reston': 88750.0
+'Fulbourn': 22757.0
+'West Aberthaw': 27248.571428571428
+'Lincolnshire': 32410.871999999992
+'Woodbridge': 23646.166666666668
+'Lanark': 16241.400000000001
+'Isleworth': 33478.6
+'Uxbridge': 34409.59615384615
+'Pagham': 10000.0
+'North Berwick': 14015.857142857143
+'Bradwall': 34000.0
+'Trimdon': 20160.0
+'Thirsk': 24441.50769230769
+'Woolwich': 23410.800000000003
+'Erdington': 18614.85714285714
+'Littlehampton': 22609.414634146335
+'Olney': 20793.666666666668
+'Bucknell': 23040.0
+'Hook Common': 72252.77777777777
+'Ford Bridge': 23000.0
+'Filey': 23872.333333333332
+'Moortown': 11808.0
+'Abbey Village': 24500.0
+'Deptford': 15360.0
+'Berkeley': 30657.894736842103
+'Hertfordshire': 39565.67179980747
+'Kidlington': 23503.07692307692
+'Knowsley Industrial Park': 13440.0
+'Hackney Wick': 17500.0
+'Durham Tees Valley Airport': 20066.42553191489
+'Milton Keynes': 32166.551543007237
+'Severn Beach': 15680.0
+'Waltham Forest': 27797.86486486487
+'Walnut Tree': 17500.0
+'Oban': 15643.142857142857
+'Pentre': 28000.0
+'Stradbroke': 12422.0
+'Westhoughton': 29760.0
+'Blandford Forum': 23699.52941176471
+'Barkingside': 35000.0
+'Waltham': 20000.0
+'Alexandria': 19593.11111111111
+'Worsley': 22994.0
+'Werrington': 24000.0
+'Rugeley': 32415.058823529413
+'Willingham': 18500.0
+'Evesham': 22344.16393442623
+'Shenley': 30000.0
+'Kingswood': 38200.0
+'Culmhead': 17000.0
+'Needham Market': 45120.0
+'Bognor Regis': 20404.346153846156
+'Belmont': 46800.0
+'Yorkshire and Humberside': 37578.8213762811
+'Brynmawr': 22080.0
+'Castle Douglas': 24000.0
+'Lechlade': 26339.846153846152
+'New Leeds': 41000.0
+'Thamesmead': 25719.6
+'Wembley': 27806.318181818177
+'Worcestershire': 31757.356275303646
+'Little Keyford': 28000.0
+'Ruscombe': 39000.0
+'Buntingford': 32019.166666666668
+'North Shields': 22717.672727272733
+'Magherafelt': 11500.0
+'Perth': 27123.741573033712
+'Leek': 21423.000000000004
+'East Harptree': 33285.0
+'Westbourne': 35000.0
+'Stepney': 17280.0
+'East Sheen': 35441.66100587853
+'Southport': 22832.221153846156
+'Farncombe': 37500.0
+'Droitwich': 27483.088235294123
+'Virginia Water': 22195.42857142857
+'Branksome': 27928.571428571428
+'Gargrave': 33000.0
+'Looe': 16518.666666666668
+'Rotherhithe': 27500.0
+'Bow': 31022.857142857145
+'Bacup': 27150.333333333332
+'Fleet Street': 31250.0
+'Ashby-De-La-Zouch': 26313.199999999997
+'Heath': 21150.0
+'Llanwrtyd Wells': 12753.0
+'Castleford': 23017.586206896558
+'Cronton': 13440.0
+'Epping': 27972.555555555555
+'Bransgore': 38563.0
+'Prestatyn': 20124.30769230769
+'Pewsey': 17469.166666666668
+'Twyford': 18000.0
+'Skelton-In-Cleveland': 25370.0
+'Marylebone': 32500.0
+'Ware': 35505.52
+'Hertford': 29585.48717948717
+'Staple Hill': 58000.0
+'Belle Vale': 19000.0
+'Ely': 27669.677419354844
+'Scarborough': 24764.059523809527
+'Aldgate': 47000.0
+'Esher': 29607.25
+'Hermitage': 23040.0
+'Morden': 27713.333333333332
+'Eastern England': 37334.71337579618
+'Warwickshire': 34108.42401960785
+'Strabane': 34500.0
+'Wych Cross': 27744.0
+'Cromer': 18769.666666666664
+'Isle Of Dogs': 12500.0
+'Foston': 30140.0
+'Gonerby Hill Foot': 31500.0
+'Sutton': 23968.86046511628
+'Immingham': 31801.69230769231
+'Felixstowe': 22432.36
+'Guiseley': 15514.0
+'West Heath': 24500.0
+'Danestone': 11884.0
+'Milngavie': 17750.0
+'West Handley': 30566.181818181816
+'Bedale': 26085.11111111111
+'Oadby': 21500.0
+'Brandon': 21294.47368421053
+'North Ayrshire': 28772.681818181816
+'Malmesbury': 23538.222222222223
+'Preston': 26120.551480959086
+'South Brent': 35439.85882352942
+'Stornoway': 14907.75
+'Bisham': 55000.0
+'Mulbarton': 12288.0
+'Runcorn': 25950.271317829458
+'Sutton Weaver': 17000.0
+'Bradley Stoke': 27217.5
+'Wetherby': 23908.65789473684
+'Feltham': 30853.31707317073
+'Dursley': 24197.947368421046
+'Didsbury': 21552.0
+'Hampshire': 38129.03147077707
+'Vauxhall': 26516.666666666668
+'Presteigne': 14185.0
+'Hanley': 20336.5
+'Bishops Castle': 29256.249999999996
+"St James's": 37500.0
+'Thornton-Cleveleys': 15500.0
+'Petworth': 16523.2
+'Ilfracombe': 24389.166666666668
+'Notting Hill': 29171.42857142857
+'Addlestone': 28755.63333333333
+'Llanrug': 5088.0
+'Kings Langley': 33853.4
+'Isle Of South Uist': 22500.0
+'Worcester Park': 26864.44444444445
+'Woolhampton': 26000.0
+'Sturminster Marshall': 22560.0
+'Cheadle': 22007.136363636364
+'Avonmouth': 19625.333333333336
+'North Holmwood': 35500.0
+'Little Ilford': 18666.666666666668
+'Winthorpe': 28750.0
+'Shenstone': 11884.0
+'Skelton': 50500.0
+'Huthwaite': 20500.0
+'Gosport': 25436.45454545456
+'Biggar': 17776.0
+'Birkenhead': 23692.1935483871
+'Kenton': 15500.0
+'Stranraer': 12522.2
+'Maybole': 12480.0
+'Sittingbourne': 28043.749999999993
+'East Somerton': 65000.0
+'Bromley': 29470.345454545455
+'Wroxham': 14700.0
+'Yeadon': 26912.25
+'Titchwell': 12720.0
+'Dean Clough Industrial Park': 46821.42857142857
+'Elstow': 41611.11111111111
+'Eastleigh': 32223.063953488378
+'Stamford': 24960.83333333334
+'Porton Down': 42197.0
+'Derby': 29302.88356909682
+'South Bank': 24666.666666666668
+'Cardiff': 29897.197478991577
+'Hooke': 50358.14285714286
+'Seer Green': 80000.0
+'Brownhill': 11884.0
+'Walkerburn': 27819.0
+'Kennington': 22500.0
+'Sherburn In Elmet': 17340.0
+'North Barningham': 31000.0
+'Bampton': 18062.5
+'West Yorkshire': 34247.9617537313
+'Romney Marsh': 46569.5
+'Southsea': 24599.999999999996
+'Bulk': 32500.0
+'Erith': 21879.588235294115
+'Piccadilly': 25680.0
+'Willoughby': 39000.0
+'Surrey Quays': 45280.125
+'Sefton': 75000.0
+'Radcliffe-On-Trent': 14496.0
+'Shipston-On-Stour': 18830.0
+'Bovington': 22600.0
+'Ottery St. Mary': 18624.0
+'East Anton': 35000.0
+'West Town': 43103.7642276423
+'Carmarthen': 16625.699999999997
+'Dawlish': 23726.545454545456
+'Purbrook': 32500.0
+'Burchetts Green': 28000.0
+'Silverdale': 12960.0
+'Totnes': 21521.103448275862
+'Blaydon Burn': 14400.0
+'Horncastle': 17928.571428571428
+'Ruthin': 31680.0
+'Bramhope': 16054.333333333334
+'Abergele': 16125.0
+'Chesterfield': 22728.66860465115
+'Letchworth Garden City': 43538.446088794924
+'Raynes Park': 18388.0
+'Lakenheath': 44160.0
+'Edmonton': 34338.2
+'West London': 39452.92675635277
+'Winchester': 29695.793367346923
+'Blackwater': 24000.0
+'Bedfont': 42166.666666666664
+'Annesley': 15560.0
+'Crown East': 62499.0
+'Hayle': 17172.285714285714
+'The Vale of Glamorgan': 27021.0
+'Huddersfield': 24153.863924050613
+'Somerset': 36826.68571428573
+'Durham Lane Industrial Park': 21750.0
+'Keele': 21340.333333333332
+'Stretford': 21406.666666666668
+'Thorpe Larches': 19200.0
+'Old Warden': 36346.0
+'Faulkbourne': 22107.0
+'Burleydam': 14400.0
+'Bromley-By-Bow': 18240.0
+'Yeovil Marsh': 26500.0
+'Highlands': 33218.631578947374
+'The Cross': 42986.666666666664
+'Penryn': 14929.6
+'Broadmeadows': 25500.0
+'Silchester': 31500.0
+'The Ridgeway': 14640.0
+'Fordingbridge': 24912.85714285714
+'Sacriston': 21120.0
+'Rush Green': 45000.0
+'Buckfastleigh': 25020.0
+'Doxford': 26896.0
+'Petts Wood': 25145.333333333332
+'West Kilbride': 34160.0
+'Moffat': 18940.5
+'Finchley': 24862.818181818184
+'Settle': 13142.0
+'Beverley': 31987.94285714286
+'Pulford': 19000.0
+'Greenwich': 29159.840579710144
+'Belford': 21000.0
+'Cheshunt': 41439.4
+'Hove': 23648.48780487806
+'Ambleside': 17547.125
+'Clacton-On-Sea': 25278.0
+'Leamington Spa': 25520.449760765547
+'Milford Haven': 30383.333333333332
+'Aston': 26294.0
+'Chichester': 27413.97734627834
+'Drax': 13440.0
+'Alvaston': 55500.0
+'Whetstone': 24286.666666666668
+'East Ham': 39020.0
+'Birstall': 13500.0
+'Burntwood': 27261.700000000004
+'Sellafield': 59574.28571428571
+'Wyke': 26459.0
+'Linlithgow Bridge': 42750.0
+'Brent Cross': 26849.10714285714
+'County Down': 29808.75
+'Ayr Central': 32485.0
+'Cranbrook': 21757.69230769231
+'Coleraine': 19325.777777777777
+'Corbridge': 32142.8
+'Catford': 27973.333333333332
+'Sutton Park': 17500.0
+'Dungannon': 17318.5
+'Swavesey': 27000.0
+'North Down': 45000.0
+'Hinckley': 22341.641791044778
+'Lowestoft': 28411.219999999998
+'Winterborne Stickland': 21500.0
+'Birmingham': 31103.19111401501
+'Halifax': 27911.000000000015
+'Penn Fields': 22000.0
+'Wigton': 13686.0
+'Penrhyndeudraeth': 17760.0
+'Westbrook': 37500.0
+'Busbridge': 37500.0
+'Pinner': 18848.0
+'Bedford': 29276.54882154883
+'Broxbourne': 37763.333333333336
+'Downpatrick': 21448.0
+'Crumpsall': 11884.0
+'Chislehurst': 27000.0
+'Wavendon': 12096.0
+'Wednesbury': 22667.97619047619
+'Rawreth': 37500.0
+'Hornchurch': 20616.214285714283
+'Warrington': 28581.62389937105
+'Clarbeston Road': 27500.0
+'Aberystwyth': 24288.6
+'Clayton': 13132.0
+'Edinburgh Technopole': 31664.3161764706
+'Ardleigh': 11904.0
+'Stafford': 26866.918518518538
+'Alloa': 23989.75
+'Glenrothes': 21836.650793650795
+'Calderbridge': 60000.0
+"Rowland's Castle": 39550.0
+'Newry': 23353.878787878795
+'Ringwood': 23328.44444444444
+'Langholm': 20333.333333333332
+'Mansfield Woodhouse': 13021.5
+'Stirling': 26026.27586206896
+'Romsey': 22239.710526315786
+'Llansantffraid': 33000.0
+'Daresbury': 30666.666666666668
+'Charfield': 30000.0
+'Sowerby': 15445.142857142859
+'Hessle': 24186.833333333336
+'Sheldon': 16819.0
+'Jedburgh': 43250.0
+'Blackpool': 27468.511210762324
+'Salisbury': 26247.550314465407
+'Kesgrave': 19440.0
+'Northern Ireland': 32181.174934725837
+'Steyning': 40000.0
+'Weymouth': 25541.24087591241
+'Dunbar': 16527.333333333332
+'Glasgow Airport': 35000.0
+'Dudley': 24516.2780748663
+'St. Austell': 21328.09677419355
+'Duxford': 25000.0
+'Marton-In-Cleveland': 31317.165517241374
+'Hambleton': 35328.0
+'Worminghall': 16500.0
+'Cinderford': 47342.0
+'Warwick': 33204.04312668463
+'Egham': 31144.24719101124
+'Beeston': 34810.71428571429
+'Ayr': 21372.83333333334
+'Castle Donington': 25710.58823529412
+'Firswood': 32714.285714285717
+'Welwyn': 26201.739130434784
+'Brixworth': 42500.0
+'Neath Port Talbot': 22186.76923076923
+'Monaghan': 22500.0
+'Great Missenden': 27714.57142857143
+'Stockwell': 17562.0
+'Central London': 43407.492903720726
+'Johnstone': 15168.0
+'Tideswell': 21000.0
+'Tongham': 32000.0
+'Porth': 21000.0
+'West Ham': 27500.0
+'Bathgate': 19393.0
+'South Ferriby': 43400.0
+'Hendon': 19320.0
+'Putney Heath': 33250.0
+'Cowley': 28500.0
+'Seascale': 57422.83333333333
+'Bridport': 35679.99999999999
+'Kilbirnie': 11884.0
+'Teignmouth': 14319.111111111111
+'West Midlands': 36319.08149606295
+'Gateshead': 24784.34782608696
+'Dronfield': 22581.05555555555
+'Cowdenbeath': 20966.0
+'Hassocks': 24676.600000000002
+'Rushden': 22854.73809523809
+'Blackwood': 18276.85714285714
+'Grimsby': 28709.46315789474
+'Appleby-In-Westmorland': 24115.0
+'Holyhead': 17439.666666666668
+'Isle Of Colonsay': 43000.0
+'Brockhill Village': 32500.0
+'Hyde Park': 35978.083333333336
+'Frimley': 36800.0
+'Loanhead': 13867.6
+'Dumbarton': 19844.69230769231
+'Norley': 16320.0
+'Dewsbury': 24437.076086956527
+'East Dulwich': 25000.0
+'Four Oaks': 13152.0
+'North East Lincolnshire': 48600.0
+'Telford': 25206.21764705883
+'Catterick': 23542.25
+'Bingham': 27500.0
+'Chantry': 34700.0
+'Yelverton': 22146.666666666668
+'Bronwydd Arms': 14592.0
+'Littlethorpe': 29250.0
+'New Malden': 28744.0
+'Iver': 25503.052631578943
+'West Leake': 29000.0
+'Stratford Enterprise Park': 41250.0
+'Shanklin': 7280.0
+'Oldfield': 33500.0
+'West Hagbourne': 11884.0
+'Hope Valley': 20333.333333333332
+'Penicuik': 23326.444444444445
+'Martock': 18541.0
+'Goring': 16000.0
+'Charlton': 24610.0
+'Middleton': 27201.714285714286
+'Hyde': 22540.25
+'Rothwell': 15500.0
+'Tadcaster': 24022.333333333332
+'Coolham': 45088.23529411765
+'Westlakes Science & Technology Park': 30500.0
+'Woodhall Spa': 15583.666666666666
+'Cardigan': 18331.0
+'Belfast': 29586.398828887453
+'Oxfordshire': 35113.93043478257
+'Swanscombe': 25000.0
+'Byfleet': 32450.765625000004
+'Brockenhurst': 25285.714285714286
+'Llandinam': 19000.0
+'Accrington': 28222.081632653066
+'Camperdown': 32058.333333333336
+'Minworth': 18720.0
+'Newbury': 31512.13333333335
+'Drighlington': 30000.0
+'Stokenchurch': 43950.0
+'Upper Sydenham': 39390.0
+'Calcot': 47257.142857142884
+'Portchester': 25500.0
+'Leyburn': 14998.0
+'Haddenham': 29000.0
+'Grimethorpe': 29000.0
+'Lincoln': 25377.91836734694
+'Firgrove': 37500.0
+'Cradley Heath': 18830.769230769227
+'West Fenton': 48749.5
+'Lathom': 35000.0
+'Lampeter': 19271.2
+'Bedworth': 21590.0
+'Ripponden': 16320.0
+'Westerham': 29073.199999999997
+'Queensferry': 30159.5
+'Hamworthy': 40000.0
+'Stonehaven': 20276.666666666668
+'Bolton': 23268.15064102565
+'Hastings': 28085.28947368421
+'Churt': 11884.0
+'South Dalton': 20976.0
+'Narborough': 19050.0
+'Whyteleafe': 43589.404255319176
+'Great Blakenham': 18240.0
+'Haddon': 25000.0
+'Burton': 41441.66666666667
+'Darwen': 21345.151515151512
+'Par': 17841.25
+'St. Boswells': 57600.0
+'Egglescliffe': 31000.0
+'Seaforth': 29000.0
+'Llanrumney': 19418.0
+'Horsforth': 38261.90510948903
+'Westminster': 33985.439024390245
+'Preston Brook': 37500.0
+'Putney': 28336.666666666664
+'South Lanarkshire': 32374.427480916034
+'Fradley Park': 14246.0
+'Alton': 23864.91228070175
+'Stocksfield': 31274.399999999998
+'Laurencekirk': 22080.0
+'Bamber Bridge': 17971.0
+'Grange-Over-Sands': 18708.6
+'Snodland': 18792.0
+'Willenhall': 20162.121212121216
+'North Ferriby': 30873.076923076922
+'North Finchley': 57829.42857142858
+'Harwell': 39924.28571428572
+'Morley': 22286.666666666668
+'Broseley': 27480.0
+'Harold Wood': 17000.0
+'Enstone': 52800.0
+'Halewood': 39101.25
+'Cobham': 27481.47222222222
+'Ballynahinch': 18012.0
+'East Linton': 15840.0
+'Bangor': 23197.160493827163
+'Willesden': 24750.0
+'Tower Hill': 33500.0
+'Isle Of Lewis': 10803.0
+'Knaresborough': 22522.05263157894
+'Smethwick': 19397.03030303031
+'Henley-On-Thames': 24963.047619047622
+'Canvey Island': 13566.75
+"World's End": 35000.0
+'Blaenau Gwent': 27023.641509433965
+'Flintshire': 27436.411764705877
+'Fairbourne': 43200.0
+'East Hagbourne': 19200.0
+'Brierley Hill': 22415.519999999997
+'Pencader': 12768.0
+'Elmbridge': 21150.0
+'West Drayton': 28933.333333333332
+'Kingswells': 24480.0
+'Ilford': 28512.538461538476
+'Bloxwich': 14250.0
+'Honiton': 17583.1875
+'Chorlton Cum Hardy': 21500.0
+'Leiston': 28551.53846153846
+'Channel Islands': 71500.0
+'Walton': 15000.0
+'Rossendale': 14250.526315789473
+'Northwich': 24587.193798449607
+'Shoreham-By-Sea': 33128.61111111111
+'Keswick': 24860.0
+'Craigiehall': 42569.60784313726
+'Garstang': 12480.0
+'Yarm': 21359.0
+'Stockton-On-Tees': 29469.569230769226
+'Newport': 29965.89204545454
+'Lee-On-The-Solent': 14502.0
+'New York': 71250.0
+'Larkhall': 18440.0
+'Cookstown': 15000.0
+'Scawsby': 12255.0
+'Long Furlong': 41250.0
+'Tyne & Wear': 27830.083333333336
+'Kington': 27500.0
+'Camden': 28832.57142857143
+'Darlington': 24859.474576271183
+'Broadway': 23480.300000000003
+'Sewardstone': 50208.0
+'Mottram': 15014.0
+'Fulford': 13075.0
+'Burnham': 9900.0
+'Datchet': 45000.0
+'Pontypridd': 23979.142857142855
+'Blaenavon': 33000.0
+'Ilkeston': 21110.612903225803
+'South Kensington': 24827.5
+'Scotland Gate': 34923.761904761916
+'Market Rasen': 20964.125
+'Pontypool': 24546.11764705882
+'Fowey': 31000.0
+'Mylor Bridge': 72000.0
+'East Kilbride': 25564.0
+'Stevenston': 20276.0
+'Braunton': 15516.142857142859
+'Kingsbridge': 21229.846153846152
+'East Town': 35433.0
+'Colindale': 30250.000000000004
+'Lower Eashing': 7200.0
+'Lockerbie': 30000.0
+'Loudwater': 46820.0
+'Wallyford': 22500.0
+'Edgbaston': 28570.375
+'Winkfield': 63360.0
+'West Thurrock': 19226.28571428571
+'Hindhead': 24214.999999999996
+'Poulton-Le-Fylde': 19890.07142857143
+'Hawick': 19592.0
+'Kimbolton': 17500.0
+'Styal': 25250.0
+'Cross Heath': 16000.0
+'Bramhall': 27000.0
+'Portsmouth': 30485.398030942328
+'South Yorkshire': 36171.34536082479
+'Wigston': 25483.93333333333
+'Sand': 13601.333333333334
+'Middlesbrough': 27475.899470899472
+'Roehampton': 36875.0
+'Bray': 27840.0
+'Langport': 17243.6
+'Gillingham': 26896.84722222221
+'Newport Pagnell': 27735.285714285717
+'Lower Hale': 18000.0
+'Old Windsor': 16800.0
+'Haye': 20137.571428571424
+'Hawarden': 21120.0
+'Sidcup': 29213.69736842106
+'St. Helens': 23778.77981651377
+'Ellesmere Port': 21826.14634146341
+'Stanford-Le-Hope': 21538.1
+'Somerton': 20411.666666666664
+'Widnes': 21755.78333333333
+'The City': 46528.51871817913
+'Purfleet': 23319.500000000004
+'Temple': 19000.0
+'Wythall': 51135.0
+'Monmouth': 21650.0
+'Culham': 33000.0
+'Auckland Park': 71250.0
+'St. Albans': 31692.306976744174
+'Inverurie': 17187.869565217392
+'Gatwick Airport': 45000.0
+'Churchbridge': 31366.666666666668
+'Mansfield': 24931.519999999997
+'Tividale': 20390.0
+'Llandrindod Wells': 26525.25
+'Uppingham': 14880.0
+'East Tuddenham': 16402.272727272728
+'Rocester': 32000.0
+'Bushmills': 15000.0
+'Hungerford Park': 40000.0
+'Withernsea': 21120.0
+'Weoley Castle': 16502.0
+'Cirencester': 25577.23021582734
+'Witley': 15950.0
+'Wellington': 22515.5
+'Marlow': 27783.98571428572
+'Livingston': 25680.345454545455
+'Berinsfield': 14830.0
+'Caterham': 27044.874999999996
+'Guernsey': 43600.69565217392
+'Friern Barnet': 28745.124999999996
+'Avon': 33206.67153284672
+'Brondesbury': 36000.0
+'North West London': 37143.180253623264
+'Twerton': 41225.0
+'Cockermouth': 28820.31578947368
+'Tisbury': 23500.0
+'Welburn': 50000.0
+'Elstree': 23480.75
+'Coatbridge': 20994.94117647059
+'Melton': 21600.0
+'Alfriston': 22500.0
+'Farnham': 25438.524096385547
+'Kibworth Harcourt': 21848.0
+'Southwark': 29943.306451612894
+'Great Warley': 11520.0
+'Pinxton': 16242.666666666668
+'Askham Bryan': 39409.09090909091
+'Beaminster': 22156.25
+'Linlithgow': 40785.2
+'Hope': 20907.428571428572
+'Chadderton': 43750.0
+'Garforth': 20000.0
+'Teddington': 24734.70588235294
+'Leeming Bar': 11884.0
+'Tenterden': 25730.899999999998
+'West Norwood': 24325.0
+'Oxford': 31866.460921843638
+'West Bromwich': 31613.745019920312
+'Pitstone': 31500.0
+'Lydney': 27068.076923076922
+'Pembrokeshire': 31891.320000000003
+'Tipton': 23085.542857142864
+'West Sussex': 35781.300771208196
+'Waltham On The Wolds': 48923.0
+'Southminster': 34608.0
+'Harrogate': 24109.29166666668
+'Ifield': 15210.0
+'West Gerinish': 41500.0
+'Little Grimsby': 40000.0
+'Harlech': 20800.0
+'Thorpe St. Andrew': 26118.763157894733
+'South Godstone': 45000.0
+'Houston': 74916.66666666667
+'West Malling': 32401.92857142857
+'Wallingford': 25384.083333333332
+'Sidmouth': 17366.050000000003
+'Park Street': 43208.33333333333
+'Choppington': 45120.0
+'Coxbench': 6500.0
+'Alfreton': 24531.072072072064
+'Droylsden': 20180.0
+'Quedgeley': 33384.0
+'Swinley': 27750.0
+'Heywood': 22779.390243902442
+'Newton Heath': 43333.333333333336
+'Flackwell Heath': 39561.53846153846
+'Crewe': 23386.371335504882
+'Merseyside': 31697.042857142867
+'Craven Arms': 16213.333333333334
+'Highbury': 44266.666666666664
+'Erskine': 24066.0
+'Irthlingborough': 50500.0
+'Tottenham Hale': 16876.0
+'Wargrave': 23250.0
+'Brightlingsea': 29750.0
+'Perth & Kinross': 41091.11111111111
+'Milford': 14462.25
+'Dalry': 33600.0
+'Seaham': 27064.0
+'Musselburgh': 19035.4
+'Binfield': 35000.0
+'Ramsgate': 23906.666666666664
+'Clackmannanshire': 36575.0
+'Victoria': 34157.333333333336
+'Paddington': 37855.0
+'Prestbury': 30935.749999999993
+'Southwick': 12825.0
+'Grantown-On-Spey': 26000.0
+'Sunningdale': 22500.0
+'East Molesey': 41650.481481481496
+'Pelaw': 37250.0
+'Dorset': 36362.51658767775
+'South Elmsall': 23875.0
+'Bluewater': 27700.0
+'Bloxham': 21000.0
+'Bushey': 23532.15
+'Hest Bank': 12960.0
+'Keynsham': 36457.125
+'Cockfosters': 21000.0
+'Southville': 21500.0
+'Nelson': 20405.794117647063
+'Christchurch': 34379.7247706422
+'Fulwood': 14231.0
+'Fraserburgh': 29805.416666666664
+'Wingrave': 14728.0
+'Camberley': 26906.177570093463
+'Rowley Regis': 16000.0
+'Kingston Upon Thames': 31765.569105691062
+'Brightwell': 19200.0
+'Uig': 37296.0
+'Aldringham': 20998.0
+'Durham': 27775.123348017612
+'Shrewsbury': 23857.5507246377
+'Swaffham Prior': 26000.0
+'Milton': 41328.0
+'Gourock': 32040.0
+'Hatherleigh': 12064.0
+'Walcott': 13104.0
+'Orpington': 25843.636363636357
+'Acocks Green': 9600.0
+'Oaklands': 45000.0
+'Acton': 29308.857142857145
+'Millom': 25632.0
+'Bend Hagg House': 37500.0
+'Upminster': 18922.666666666664
+'Banbury': 25854.74596774193
+'Ticehurst': 25000.0
+'Market Harborough': 30384.774193548386
+'Far Arnside': 38750.0
+'Shere': 34666.666666666664
+'Harefield': 26750.0
+'North Harrow': 39500.0
+'Woolpit': 22500.0
+'Barton-Upon-Humber': 24683.333333333332
+'Barrow': 24000.0
+'East Riding': 33353.715328467144
+'Rownhams': 16000.0
+'Wiltshire': 35551.82287822877
+'Holmfirth': 18438.857142857145
+'Long Eaton': 11884.0
+'Cosham': 21940.0
+'Woodford': 15360.0
+'Craigiebuckler': 31000.0
+'Cheshire': 33245.368541905875
+'Chester': 27614.00154320987
+'Bicester': 24900.084967320276
+'Margate': 22701.277777777777
+'Bingley': 26457.76
+'Porthmadog': 12355.0
+'Wendover': 16320.0
+'Selby': 27633.588235294126
+'Willen': 12528.0
+'Holbeach': 15660.0
+'Bensham': 17280.0
+'Kirkintilloch': 22272.0
+'Colnbrook': 18235.0
+'Swanage': 20794.800000000003
+'Peterculter': 11520.0
+'Kingfield': 21120.0
+'UK': 34113.3153335116
+'South Croydon': 34589.25641025641
+'Anwick': 16320.0
+'Stansted': 28105.458333333332
+'Strood': 30000.0
+'Basildon': 29496.09497206705
+'Gorton': 32500.0
+'St. Germans': 45000.0
+'Morecambe': 23586.982142857138
+'Woodstock': 37760.0
+'Launceston': 21280.642857142855
+'Fetcham': 11884.0
+'Nyewood': 18000.0
+'Brandon Creek': 21120.0
+'Wick': 36139.63636363636
+'Benfleet': 23111.42857142857
+'Airdrie': 22990.400000000005
+'Rustington': 15600.0
+'Argyll & Bute': 25599.875
+'Blackheath': 31136.666666666668
+'Pontefract': 23550.785714285717
+'Bala': 22283.0
+'Ramsey': 15360.0
+'Sundridge': 57508.333333333336
+'Shepshed': 21100.0
+'Thrapston': 21435.0
+'Bradford': 27417.270858524804
+'Frome': 27036.23076923077
+'Newcastle Emlyn': 20056.0
+'Manchester Airport': 18500.0
+'Godstone': 26509.4
+'Herefordshire': 38479.75
+'Well': 21377.2
+"Chandler's Ford": 29302.666666666668
+'Poole': 27855.073412698406
+'Hillingdon': 30618.333333333336
+'Burscough': 21120.0
+'Stanton-On-The-Wolds': 33697.6
+'Chelsea': 30907.692307692305
+'Stalybridge': 27818.222222222223
+'Portree': 20758.5
+'Wattisham': 23040.0
+'Walsall': 25778.76811594203
+'Rhuddlan': 16000.0
+'Manningtree': 18920.0
+'Chandlers Cross': 15276.166666666666
+'Ingatestone': 26875.0
+'Altens': 30248.5
+'Hunstanton': 18678.0
+'Crianlarich': 11884.0
+'Bardon Hill': 25500.0
+'Berkshire': 39639.51464713716
+'Little Irchester': 15480.0
+'Rye': 19948.0
+'Otley': 27955.920000000002
+'Little Clacton': 15360.0
+'Holborn': 49166.666666666664
+'Woolmer Green': 24960.0
+'Kingsdown': 33000.0
+'Corby': 24528.658291457283
+'Wimbledon': 26411.63636363636
+'Tarporley': 21595.538461538465
+'Omagh': 20574.857142857145
+'Pride Park': 47500.0
+'Wallsend': 22733.82608695652
+'Lichfield': 24747.728000000003
+'Melksham': 27238.96078431373
+'Heaton Mersey': 15000.0
+'Goole': 27827.871794871797
+'Wells': 18062.5
+'Titchfield': 37759.333333333336
+'Bourton-On-The-Water': 28750.0
+'Alperton': 21000.0
+'Maida Vale': 17100.0
+'Kenyon': 21000.0
+'Henlow': 22970.0
+'Irlam': 40862.857142857145
+'Arbroath': 29412.674418604656
+'Gloucestershire': 33601.74447174445
+'Hungerford': 25462.375
+'Dover': 29459.125
+'Selly Park': 21126.0
+'Abingdon': 34706.34050179213
+'Nuncargate': 21120.0
+'Blairgowrie': 24856.0
+'North Lanarkshire': 34071.42857142857
+'Belvedere': 36676.0
+'Newhaven': 17756.666666666668
