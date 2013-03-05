@@ -2,7 +2,7 @@ from string import Template
 
 class Word:
 	def __init__(self, word, granularity, valuesFormat=Template("$key,$value;"), values={}):
-		self.text = word
+		self.text = word.lower()
 		self.values = values
 		self.valueTemplate = valuesFormat
 		self.granularity = granularity

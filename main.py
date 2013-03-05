@@ -65,6 +65,14 @@ def wordTest(inputPath, distributionGranularity, wordGranularity, tempFile):
 				print check.configure()
 			except NameError:
 				continue
+				
+def jobTest(inputPath):
+	jobList=[]
+	with open(inputPath, 'rb') as rawData:
+		reader = csv.reader(rawData, delimiter=",")
+		for row in reader:
+			jobList.append(Job(rawJob(row)))
+	return jobList
 	
 #runningAverage("../data/Train_rev1.csv", "company", "averages/companyAverages.csv")
 
@@ -73,4 +81,5 @@ def wordTest(inputPath, distributionGranularity, wordGranularity, tempFile):
 
 #standardizeSalaryFiles("usefulData/50GrainedFrequencies.csv","usefulData/50GrainedFrequencies.csv",50)
 
-wordTest("usefulData/50GrainedFrequencies.csv", 50, 2000, "dictionaryData.txt")
+#wordTest("usefulData/50GrainedFrequencies.csv", 50, 2000, "dictionaryData.txt")
+jobTest("../data/Train_rev1_sample.csv")

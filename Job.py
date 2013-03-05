@@ -23,9 +23,8 @@ class Job:
 		'''Takes a list, parses it down to words according to the word pattern,
 		then removes the characters in filteredCharacters. Returns the string
 		as a list of words'''
-		#return [Word(word.replace(self.filteredCharacters, "")) for word in
-		#				string.lower().split(" ") if re.match(self.wordPattern, word)]	
-		return [Word(word) for word in string.lower().split(" ")]
+		return [word.replace(self.filteredCharacters, "") for word in
+						string.lower().split(" ") if re.match(self.wordPattern, word)]	
 						
 	def wordsToWordPairs(self, words):
 		wordPairs = [WordPair(words[i-1], words[i]) for i in range(1,len(words))]
