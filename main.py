@@ -5,6 +5,7 @@ import cProfile
 from string import Template
 from visual import *
 from visual.graph import *
+from salaryProbabilityReader import SalaryDistribution
 
 def runningAverage(filePath, field, outputPath):
 	fieldTicks = {}
@@ -41,6 +42,14 @@ def plotFrequency(filePath, columnWidth):
 		values[position[0]] = position[1]
 	print values
 	
+def standardizeSalaryFiles(inputPath, outputPath, granularity):
+	sweeper = SalaryDistribution(inputPath, granularity)
+	sweeper.parse()
+	sweeper.fileDump(outputPath)
+	
 #runningAverage("../data/Train_rev1.csv", "company", "averages/companyAverages.csv")
-set_printoptions(threshold='nan')
-plotFrequency("../data/Train_rev1.csv", 250)
+
+#set_printoptions(threshold='nan')
+#plotFrequency("../data/Train_rev1.csv", 50)
+
+#standardizeSalaryFiles("usefulData/50GrainedFrequencies.csv","usefulData/50GrainedFrequencies.csv",50)
