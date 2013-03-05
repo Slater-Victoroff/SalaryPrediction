@@ -6,6 +6,7 @@ from string import Template
 from visual import *
 from visual.graph import *
 from salaryProbabilityReader import SalaryDistribution
+from word import Word
 
 def runningAverage(filePath, field, outputPath):
 	fieldTicks = {}
@@ -47,9 +48,29 @@ def standardizeSalaryFiles(inputPath, outputPath, granularity):
 	sweeper.parse()
 	sweeper.fileDump(outputPath)
 	
+def wordTest(inputPath, distributionGranularity, wordGranularity, tempFile):
+	salaryDictionary = SalaryDistribution(inputPath, distributionGranularity)
+	salaryDictionary.parse()
+	test = Word("Potato", wordGranularity)
+	test.initializeValues(salaryDictionary)
+	with open(tempFile, 'w') as dataDump:
+		dataDump.write(test.configure())
+	with open(tempFile, 'r') as reReading:
+		for line in reReading:
+			try:
+				check=Word.fromFileString(line)
+				print check.configure()
+				check.increment(8200, 3, 0.75)
+				print ("~~~~~~~")
+				print check.configure()
+			except NameError:
+				continue
+	
 #runningAverage("../data/Train_rev1.csv", "company", "averages/companyAverages.csv")
 
 #set_printoptions(threshold='nan')
 #plotFrequency("../data/Train_rev1.csv", 50)
 
 #standardizeSalaryFiles("usefulData/50GrainedFrequencies.csv","usefulData/50GrainedFrequencies.csv",50)
+
+wordTest("usefulData/50GrainedFrequencies.csv", 50, 2000, "dictionaryData.txt")

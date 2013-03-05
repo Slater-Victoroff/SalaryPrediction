@@ -1,34 +1,39 @@
 from string import Template
 
 class Word:
-	def __init__(self, word, granularity, valuesFormat=Template("$key,$value;")):
+	def __init__(self, word, granularity, valuesFormat=Template("$key,$value;"), values={}):
 		self.text = word
-		self.values = {}
+		self.values = values
 		self.valueTemplate = valuesFormat
 		self.granularity = granularity
 		
 	@classmethod
 	def fromFileString(cls, fileLine):
-		cls.text = fileLine[1:fileLine.find(" ")]
-		messyValues = fileLine[(fileLine.find("{")+1):-2]
-		listOfKVPairs = messyValues.split(";")
-		for pair in listOfKVPairs:
-			if len(pair) > 1:
-				terms = pair.split(",")
-				self.values[terms[0]] = terms[1]
-		minimum = min(cls.values)
-		copy = self.values
-		copy.pop(minimum)
-		cls.granularity = min(copy) - minimum
-		cls.valueTemplate = Template("$key,$value;")
-		return cls
+		if len(fileLine) > 5:
+			text = fileLine[1:fileLine.find(" ")]
+			messyValues = fileLine[(fileLine.find("{")+1):-3]
+			listOfKVPairs = messyValues.split(";")
+			values = {}
+			for pair in listOfKVPairs:
+				if len(pair) > 1:
+					terms = pair.split(",")
+					values[float(terms[0])] = float(terms[1])
+			minimum = min(values)
+			copy = values
+			copy.pop(minimum)
+			granularity = min(copy) - minimum
+			valueTemplate = Template("$key,$value;")
+			return cls(text, granularity, valueTemplate, values)
+		else:
+			raise NameError("fileLine")
+			return None
 		
 	def initializeValues(self, salaryProbabilities, minimum=0, 
 						maximum=200000, minimumFrequency=1.0):
 		currentMinimum=minimum
 		currentMaximum=self.granularity
 		while currentMinimum<maximum:
-			self.values[currentMinimum] = self.averageDictionaryValue(salaryProbabilities, currentMinimum, currentMaximum)
+			self.values[currentMinimum] = self.averageDictionaryValue(salaryProbabilities.cleanedData, currentMinimum, currentMaximum)
 			if self.values[currentMinimum] == 0:
 				self.values[currentMinimum] = minimumFrequency
 			currentMinimum += self.granularity
@@ -43,7 +48,7 @@ class Word:
 				ticks += 1.0
 		return value/ticks
 		
-	def format(self):
+	def configure(self):
 		form = "<" + self.text + " {"
 		for entry in self.values.keys():
 			form += self.valueTemplate.substitute(key=entry, value=self.values[entry])
@@ -65,7 +70,7 @@ class Word:
 		self.values[start] += 1
 		improved = [start]
 		for i in range(1,dropOffWidth+1):
-			addition = stepDown^(i)
+			addition = stepDown**(i)
 			try:
 				self.values[start-(i*self.granularity)] += addition
 				stepUp += addition
@@ -91,6 +96,8 @@ class Word:
 		the value dictionary should be fairly small, still this code is
 		going to run a lot, so speeding this up would be good'''
 		downIncrement = value - self.granularity
+		print value
+		print downIncrement
 		for entry in self.values:
 			if entry <= value and entry >= downIncrement:
 				return entry
