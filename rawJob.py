@@ -4,7 +4,7 @@ class rawJob:
 
 	Input is a parsed row from the csv module'''
 	def __init__(self, parsedRow):
-		values = [string.strip() for string in parsedRow]
+		values = [string.strip().lower() for string in parsedRow]
 		categories = ["id", "title", "description", "rawLocation", "normalizedLocation",
 						"contractType", "contractTime", "company", "category",
 						"salaryRaw", "salaryNormalized","sourceName"]
