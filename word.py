@@ -1,11 +1,27 @@
 from string import Template
 
 class Word:
-	def __init__(self, word, granularity, valuesFormat=Template("$key,$value")):
+	def __init__(self, word, granularity, valuesFormat=Template("$key,$value;")):
 		self.text = word
 		self.values = {}
 		self.valueTemplate = valuesFormat
 		self.granularity = granularity
+		
+	@classmethod
+	def fromFileString(cls, fileLine):
+		cls.text = fileLine[1:fileLine.find(" ")]
+		messyValues = fileLine[(fileLine.find("{")+1):-2]
+		listOfKVPairs = messyValues.split(";")
+		for pair in listOfKVPairs:
+			if len(pair) > 1:
+				terms = pair.split(",")
+				self.values[terms[0]] = terms[1]
+		minimum = min(cls.values)
+		copy = self.values
+		copy.pop(minimum)
+		cls.granularity = min(copy) - minimum
+		cls.valueTemplate = Template("$key,$value;")
+		return cls
 		
 	def initializeValues(self, salaryProbabilities, minimum=0, 
 						maximum=200000, minimumFrequency=1.0):
