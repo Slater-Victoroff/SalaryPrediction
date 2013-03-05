@@ -17,7 +17,8 @@ class Job:
 		self.descriptionWordPairs = self.wordsToWordPairs(self.descriptionWords)
 		self.salary = float(rawJob.data["salaryNormalized"])
 		self.location = rawJob.data["normalizedLocation"]
-		
+		self.company = rawJob.data["company"]
+
 	def cleanString(self, string):
 		'''Takes a list, parses it down to words according to the word pattern,
 		then removes the characters in filteredCharacters. Returns the string
