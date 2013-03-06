@@ -12,6 +12,7 @@ import nltk
 from operator import itemgetter
 import string
 from itertools import izip
+import re
 
 def LoadData(filePath):
 	reader = csv.reader(open(filePath))
@@ -56,7 +57,7 @@ def Update(hypo,x,data,salSTD):
 	sigma = BWEstimator(data,salSTD)
 	for datum in data:
 		like = Gaussian(x,datum,sigma)
-		hypo += like*100 #Bullshit value feel free to tweak
+		hypo += like
 	hypo = Normalize(hypo)
 	return hypo
 
@@ -66,20 +67,24 @@ def SCIPYPMF(data,x):
 	pmf = pdf(x)
 	return Normalize(pmf)
 
-def PMFD(d,x,bins,salSTD):
+def PMFD(d,x,bins,salSTD,salPMF):
+	res = defaultdict(list)
+	weights = defaultdict(float)
 	for key in d:
 		data = d[key]
 		priors = Normalize(np.ones(bins))
-		d[key] = Update(priors,x,data,salSTD)
-	return d
+		res[key] = Update(priors,x,data,salSTD)
+		weights[key] = res[key]-salPMF
+		Normalize(weights[key])
+	return res,weights
 
-def GetWordPMF(words,titles,bins):
-	wordPMF = np.ones(bins)
+def GetWordPMF(words,d,x,weights,salPMF):
+	wordPMF = salPMF
 	for word in words:
-		pmf = titles[word]
+		pmf = d[word]
 		if pmf != []:
-			wordPMF = wordPMF*pmf
-	# wordPMF = Normalize(wordPMF)
+			wordPMF = wordPMF+weights[word]
+	wordPMF = Normalize(wordPMF)
 	return wordPMF
 
 def wordFreq(words):
@@ -94,47 +99,50 @@ def getWords(job,field,sal):
 	return [(word,sal) for word in jobWords if word != '']
 
 def getWordsOnly(job,field):
-	jobWords = nltk.word_tokenize(job.data[field])
-	jobWords = [word.translate(string.maketrans("",""), string.punctuation) for word in jobWords]
-	return [word for word in jobWords if word != '']
+	wordPattern = r'^([a-zA-Z\']+)$'
+	filteredCharacters = "'"
+	string = job[field]
+	return [word.replace(filteredCharacters, "") for word in
+				string.lower().split(" ") if re.match(wordPattern, word)]	
 
-def stats(a):
+def stats(a,x):
 	mean = np.mean(np.exp(a))
 	std = np.std(a)
-	return mean,std
+	priors = Normalize(np.ones(bins))
+	salPMF = Update(priors,x,salaries,std)
+	return mean,std,salPMF
 
 def processData(trainNum):
 	salaries = []
-	locations = []
-	companies = []
-	titles = []
+	titles = defaultdict(list)
+	locs = defaultdict(list)
+	comps = defaultdict(list)
 	for i in xrange(1,trainNum):
-		job = jobData[i]
-		sal = np.log(float(job.data['salaryNormalized']))
-		locations.append((job.data['normalizedLocation'],sal))
-		companies.append((job.data['company'].lower(),sal))
+		job = jobData[i].data
+		sal = np.log(float(job['salaryNormalized']))
+		locs[job['normalizedLocation']].append(sal)
+		comps[job['company'].lower()].append(sal)
+		titleWords = getWordsOnly(job,'title')
+		for word in titleWords:
+			titles[word].append(sal)
 		salaries.append(sal)
-		titles.extend(getWords(job,'title',sal))
-	locs = ToDict(locations)
-	comps = ToDict(companies)
-	titles = ToDict(titles)
 	return salaries,locs,comps,titles
 
 def trainData(sals,locs,comps,titles,salSTD,x):
 	bins = x.size
-	locs = PMFD(locs,x,bins,salSTD)
-	comps = PMFD(comps,x,bins,salSTD)
-	titles = PMFD(titles,x,bins,salSTD)
-	return locs,comps,titles
+	titles,titlesW = PMFD(titles,x,bins,salSTD,salPMF)
+	locs,locsW = PMFD(locs,x,bins,salSTD,salPMF)
+	comps,compsW = PMFD(comps,x,bins,salSTD,salPMF)
+	return locsW,compsW,titles,titlesW
 
-def test(filePath,locs,comps,titles,mean,x):
+def test(filePath,locs,comps,titles,mean,x,salPMF,titlesW):
 	bins = x.size
 	testData = LoadData(filePath)
 	ids = []
 	predictions = []
 	for job in testData:
 		jobID = job.data['id']
-		guess = predict(job,locs,comps,titles,mean,x)
+		guess = predict(job,locs,comps,titles,mean,x,salPMF,titlesW)
 		predictions.append(guess)
 		ids.append(jobID)
 	with open('pmfPredict.csv','wb') as fOut:
@@ -143,16 +151,16 @@ def test(filePath,locs,comps,titles,mean,x):
 	        out.writerow(row)
 
 
-def predict(job,locs,comps,titles,mean,x):
+def predict(job,locs,comps,titles,mean,x,salPMF,titlesW):
 	bins = x.size
 	locPMF = locs[job.data['normalizedLocation']]
 	comPMF = comps[job.data['company'].lower()]
-	words = getWordsOnly(job,'title')
-	wordPMF = GetWordPMF(words,titles,bins)
+	words = getWordsOnly(job.data,'title')
+	wordPMF = GetWordPMF(words,titles,x,titlesW,salPMF)
 	if all(pmf != [] for pmf in (locPMF,comPMF,wordPMF)):
-		merged = Normalize(locPMF*comPMF*wordPMF)
-		# Guess the mean of posterior distribution
-		guess = np.exp(np.average(x,weights=merged))
+		merged = Normalize(locPMF+comPMF+wordPMF)
+		# Max likelihood of posterior distribution
+		guess = np.exp(x[np.argmax(merged)])
 	else:
 		guess = mean
 	return guess
@@ -163,10 +171,10 @@ trainNum = len(jobData)
 bins = 200
 print 'data loaded'
 salaries,locs,comps,titles = processData(trainNum)
-meanSal,salSTD = stats(salaries)
-print 'data prepped'
 x = np.linspace(min(salaries),max(salaries),bins)
-locs,comps,titles = trainData(salaries,locs,comps,titles,salSTD,x)
+meanSal,salSTD,salPMF = stats(salaries,x)
+print 'data prepped'
+locs,comps,titles,titlesW = trainData(salaries,locs,comps,titles,salSTD,x)
 print 'data trained'
-test('Valid_rev1.csv',locs,comps,titles,meanSal,x)
+test('Valid_rev1.csv',locs,comps,titles,meanSal,x,salPMF,titlesW)
 print 'predicted'
