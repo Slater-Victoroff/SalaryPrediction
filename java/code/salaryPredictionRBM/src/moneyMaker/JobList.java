@@ -12,4 +12,7 @@ public class JobList {
 	private static final String TINY_SAMPLE_DATA="/home/svictoroff/Documents/Kaggle/SalaryPrection/data/Train_rev1_tiny_sample.csv";
 	private static final String TEST_DATA="/home/svictoroff/Documents/Kaggle/SalaryPrection/data/Train_rev1.csv";
 	
+	public JobList(){
+		
+	}
 }

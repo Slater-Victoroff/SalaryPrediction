@@ -1,0 +1,20 @@
+package moneyMaker;
+
+import java.util.List;
+
+public class FeatureVector {
+
+	private static final String JOB_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/jobs.json";
+	private static final String TITLE_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/titles.json";
+	private static final String DESCRIPTION_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/descriptions.json";
+	private static final String LOCATION_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/locations.json";
+	private static final String INDUSTRY_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/industries.json";
+	private static final String COMPANY_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/companies.json";
+
+	private List<Boolean> titleWords;
+	private List<Boolean> descriptionWords;
+	private List<Boolean> locations;
+	private List<Boolean> companies;
+	private List<Boolean> industries;
+	
+}

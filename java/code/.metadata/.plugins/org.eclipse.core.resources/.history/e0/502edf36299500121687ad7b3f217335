@@ -1,0 +1,74 @@
+package moneyMaker;
+
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import stemmer.EnglishStemmer;
+import stemmer.SnowballStemmer;
+
+public class Job {
+
+	private Double id;
+	private String company;
+	private String title;
+	private String description;
+	private String industry;
+	private String location;
+	private Double salary;
+	private Set<String> titleWords;
+	private Set<String> descriptionWords;
+	
+	public Job(String[] fileLine){
+		this.id = Double.parseDouble(fileLine[0]);
+		this.title = fileLine[1];
+		this.description = fileLine[2];
+		this.location = fileLine[4].toLowerCase().trim();
+		this.company = fileLine[7].toLowerCase().trim();
+		this.industry = fileLine[8].toLowerCase().trim();
+		this.salary = Double.parseDouble(fileLine[10]);
+		SnowballStemmer stemmer = (SnowballStemmer) new EnglishStemmer();
+		this.titleWords = parseRawString(this.title, stemmer);
+		this.descriptionWords = parseRawString(this.description, stemmer);
+	}
+	
+	public Set<String> parseRawString(String rawString, SnowballStemmer stemmer){
+		Set<String> answer = new HashSet<String>();
+		String[] firstSplit = rawString.split("[\\p{P} \\t\\n\\r]");
+		List<String> rawSplit = new ArrayList<String>();
+		for (String s: firstSplit) try{
+			URL url = new URL(s);
+		}
+		for (String s: rawSplit){
+			stemmer.setCurrent(s.toLowerCase());
+			stemmer.stem();
+			String addition = stemmer.getCurrent();
+			if (addition.length()>1){
+				answer.add(addition);
+			}
+		}
+		return answer;
+	}
+	
+	public Set<String> getTitleWords(){
+		return this.titleWords;
+	}
+	
+	public Set<String> getDescriptionWords(){
+		return this.descriptionWords;
+	}
+	
+	public String getCompany(){
+		return this.company;
+	}
+	
+	public String getLocation(){
+		return this.location;
+	}
+	
+	public String getIndustry(){
+		return this.industry;
+	}
+}
