@@ -1,0 +1,25 @@
+package moneyMaker;
+
+import java.util.List;
+
+public class Job {
+
+	private Double id;
+	private String company;
+	private String title;
+	private String description;
+	private String industry;
+	private String location;
+	private Double salary;
+	private List<String> titleWords;
+	private List<String> descriptionWords;
+	
+	public Job(String[] fileLine){
+		this.id = Double.parseDouble(fileLine[0]);
+		this.title = fileLine[1];
+		this.description = fileLine[2];
+		this.location = fileLine[4];
+		this.company = fileLine[7];
+		this.industry = fileLine[8];
+	}
+}

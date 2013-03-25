@@ -1,0 +1,9 @@
+package moneyMaker;
+
+import java.util.List;
+
+
+public class JobList {
+
+	private List<Job> allJobs;
+}

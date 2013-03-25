@@ -1,0 +1,10 @@
+package test;
+
+public class GsonTest {
+
+	public static void main(String[] args){
+		String json = "{'title':'potato', 'value':20}";
+		
+		Data data = new Gson().fromJson
+	}
+}

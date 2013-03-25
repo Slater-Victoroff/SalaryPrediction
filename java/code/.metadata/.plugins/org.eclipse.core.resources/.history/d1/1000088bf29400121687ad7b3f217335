@@ -1,0 +1,14 @@
+package test;
+
+public class CSVReaderTest {
+
+	private static final String FULL_DATA="~/Documents/Kaggle/SalaryPrediction/data/Train_rev1.csv";
+	private static final String SAMPLE_DATA="~/Documents/Kaggle/SalaryPrediction/data/Train_rev1_sample.csv";
+	private static final String SMALL_SAMPLE_DATA="~/Documents/Kaggle/SalaryPrediction/data/Train_rev1_small_sample.csv";
+	private static final String TINY_SAMPLE_DATA="~/Documents/Kaggle/SalaryPrediction/data/Train_rev1_tiny_sample.csv";
+	private static final String TEST_DATA="~/Documents/Kaggle/SalaryPrediction/data/Train_rev1.csv";
+	
+	public static void main(String[] args){
+		
+	}
+}

@@ -1,0 +1,15 @@
+package test;
+
+import stemmer.SnowballProgram;
+import stemmer.SnowballStemmer;
+
+public class StemmerTest {
+
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException{
+		Class stemClass = Class.forName("stemmer.EnglishStemmer");
+		SnowballStemmer stemmer = (SnowballStemmer) new EnglishStemmer();
+		stemmer.setCurrent("testings");
+		stemmer.stem();
+		System.out.println(stemmer.getCurrent());
+	}
+}

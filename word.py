@@ -12,12 +12,15 @@ class Word:
 		if len(fileLine) > 5:
 			text = fileLine[1:fileLine.find(" ")]
 			messyValues = fileLine[(fileLine.find("{")+1):-3]
-			listOfKVPairs = messyValues.split(";")
+			listOfKVPairs = messyValues.split(",")
 			values = {}
 			for pair in listOfKVPairs:
 				if len(pair) > 1:
-					terms = pair.split(",")
-					values[float(terms[0])] = float(terms[1])
+					terms = pair.split(": ")
+					try:
+						values[float(terms[0])] = float(terms[1])
+					except IndexError:
+						print pair
 			minimum = min(values)
 			copy = values
 			copy.pop(minimum)
@@ -28,8 +31,8 @@ class Word:
 			raise NameError("fileLine")
 			return None
 		
-	def initializeValues(self, salaryProbabilities, minimum=0, 
-						maximum=200000, minimumFrequency=1.0):
+	def initializeNewValues(self, salaryProbabilities, minimum=0.0, 
+						maximum=210000, minimumFrequency=0.05):
 		currentMinimum=minimum
 		currentMaximum=self.granularity
 		while currentMinimum<maximum:
@@ -38,66 +41,76 @@ class Word:
 				self.values[currentMinimum] = minimumFrequency
 			currentMinimum += self.granularity
 			currentMaximum += self.granularity
+			
+	def initializeValues(self, values):
+		self.values = values
 				
 	def averageDictionaryValue(self, dictionary, minimum, maximum):
 		value = 0
 		ticks = 0
-		for key in dictionary.keys():
+		for key in dictionary:
 			if key<maximum and key>=minimum:
 				value += dictionary[key]
 				ticks += 1.0
+		if ticks == 0:
+			return 0
 		return value/ticks
 		
 	def configure(self):
-		form = "<" + self.text + " {"
-		for entry in self.values.keys():
-			form += self.valueTemplate.substitute(key=entry, value=self.values[entry])
-		form +="}>"
+		form = "<" + self.text + " "
+		form += str(self.values)
+		form +=">\n"
 		return form
 		
-	def increment(self, centerValue, dropOffWidth, stepDown):
-		'''This method is made for training of the word model,
-		Every time you find a particular word used, this method should
-		be called on the word, there will be a similar method in the wordpair file.
-		This method will increment the bin containing the centerValue by 1, and
-		will look left and right n spaces where n is the dropOffWidth, and increment
-		each bin in the dropOffWidth by stepDown^n. Every other bin will be equally
-		stepped down to make sure that there is no net change of the word value. 
-		Eventually this should be optimized so that every bin is changed so that 
-		the reduction increases with difference from the centerValue'''
-		stepUp = 1
-		start = self.closestValue(centerValue) 
-		self.values[start] += 1
-		improved = [start]
-		for i in range(1,dropOffWidth+1):
-			addition = stepDown**(i)
-			try:
-				self.values[start-(i*self.granularity)] += addition
-				stepUp += addition
-				improved.append(start-(i*self.granularity))
-			except KeyError:
-				continue
-			try:
-				self.values[start+(i*self.granularity)] += addition
-				stepUp += addition
-				improved.append(start+(i*self.granularity))
-			except KeyError:
-				continue
-		toReduce = []
-		for entry in self.values.keys():
-			if entry not in improved:
-				toReduce.append(entry)
-		stepDown = stepUp/len(toReduce)
-		for confirmedReduction in toReduce:
-			self.values[confirmedReduction] -= stepDown
+	def increment(self, centerValue, increment = 1.0, steps = 4, stepDown = 0.75):
+		'''Adds a total of increment to the bins within steps of the actual
+		center value. Currently the falloff is stepdDown^(i^2)'''
+		totalUp = 0.0
+		steppedUp = []
+		sortedValues = sorted(self.values.keys())
+		center = self.closestValue(centerValue) 
+		if center is None:
+			print "Center Values Is:"
+			print centerValue
+			pass
+		centerIndex = sortedValues.index(center)
+		leftOffset = centerIndex
+		leftSteps = min(leftOffset, steps)
+		rightOffset = abs(centerIndex - len(sortedValues)-1)
+		rightSteps = min(rightOffset,steps)
+		for i in range(0,leftSteps):
+			totalUp += (stepDown**((i+1)*(i+1)))
+		for i in range(0,rightSteps):
+			totalUp += (stepDown**((i+1)*(i+1)))
+		centerStep = increment/totalUp
+		self.values[center] += centerStep
+		steppedUp.append(center)
+		#Left step up
+		for i in range(0,leftSteps):
+			index = centerIndex - (i+1)
+			step = totalUp*(stepDown**((i+1)*(i+1)))
+			self.values[sortedValues[index]] += step
+			steppedUp.append(sortedValues[index])
+			
+		#Right step up
+		for i in range(0,rightSteps):
+			index = centerIndex + (i+1)
+			step = totalUp*(stepDown**((i+1)*(i+1)))
+			self.values[sortedValues[index]] += step
+			steppedUp.append(sortedValues[index])
+		
+		numberNotTouched = len(sortedValues) - len(steppedUp)
+		decrement = totalUp/numberNotTouched	
+		for entry in sortedValues:
+			if entry not in steppedUp:
+				self.values[entry] -= decrement
 	
-	def closestValue(self, value):
+	def closestValue(self, value): 
 		'''Right now basically brute force, which I don't like, but
 		the value dictionary should be fairly small, still this code is
 		going to run a lot, so speeding this up would be good'''
-		downIncrement = value - self.granularity
-		print value
-		print downIncrement
+		downIncrement = value - self.granularity-1 
+		#Added 1 to avoid edge cases
 		for entry in self.values:
 			if entry <= value and entry >= downIncrement:
 				return entry
