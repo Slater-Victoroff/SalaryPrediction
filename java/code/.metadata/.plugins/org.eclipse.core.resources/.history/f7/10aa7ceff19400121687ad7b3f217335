@@ -1,0 +1,13 @@
+package test;
+
+public class CSVReaderTest {
+
+	private static final String FULL_DATA="";
+	private static final String SAMPLE_DATA="";
+	private static final String SMALL_SAMPLE_DATA="";
+	private static final String TEST_DATA="";
+	
+	public static void main(String[] args){
+		
+	}
+}

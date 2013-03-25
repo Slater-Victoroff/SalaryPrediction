@@ -1,0 +1,6 @@
+package moneyMaker;
+
+public class JobList {
+
+	private List<Job> allJobs;
+}

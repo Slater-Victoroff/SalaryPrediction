@@ -1,0 +1,16 @@
+package moneyMaker;
+
+public class Job {
+
+	private Double id;
+	private String company;
+	private String title;
+	private String description;
+	private String industry;
+	private String location;
+	private Double salary;
+	
+	public Job(String[] fileLine){
+		this.company = fileLine[]
+	}
+}
