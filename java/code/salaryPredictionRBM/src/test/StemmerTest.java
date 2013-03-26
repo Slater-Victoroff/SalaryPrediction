@@ -6,18 +6,21 @@ import java.util.Set;
 import stemmer.EnglishStemmer;
 import stemmer.SnowballProgram;
 import stemmer.SnowballStemmer;
+import stemmer.PorterStemmer;
 
 public class StemmerTest {
 
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException{
-		SnowballStemmer stemmer = (SnowballStemmer) new EnglishStemmer();
-		stemmer.setCurrent("testings");
-		stemmer.stem();
-		System.out.println(stemmer.getCurrent());
-		Set<String> test = new HashSet<String>();
-		test.add("potato");
-		test.add("Potato");
-		test.add("potato");
-		System.out.println(test.size());
+		/*SnowballStemmer stemmer = (SnowballStemmer) new EnglishStemmer();
+		*stemmer.setCurrent("testings");
+		*stemmer.stem();
+		*System.out.println(stemmer.getCurrent());
+		*Set<String> test = new HashSet<String>();
+		*test.add("potato");
+		*test.add("Potato");
+		*test.add("potato");
+		*System.out.println(test.size());
+		*/
+		PorterStemmer s = new PorterStemmer();
 	}
 }

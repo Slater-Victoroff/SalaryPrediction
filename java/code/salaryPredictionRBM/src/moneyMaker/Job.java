@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 import stemmer.EnglishStemmer;
+import stemmer.PorterStemmer;
 import stemmer.SnowballStemmer;
 
 public class Job {
@@ -31,27 +32,31 @@ public class Job {
 		this.company = fileLine[7].toLowerCase().trim();
 		this.industry = fileLine[8].toLowerCase().trim();
 		this.salary = Double.parseDouble(fileLine[10]);
-		SnowballStemmer stemmer = (SnowballStemmer) new EnglishStemmer();
+		PorterStemmer stemmer = new PorterStemmer();
 		this.titleWords = parseRawString(this.title, stemmer);
 		this.descriptionWords = parseRawString(this.description, stemmer);
 	}
 	
-	public List<String> parseRawString(String rawString, SnowballStemmer stemmer){
+	public List<String> parseRawString(String rawString, PorterStemmer stemmer){
 		List<String> answer = new ArrayList<String>();
-		String[] firstSplit = rawString.split("[ \\t\\n\\r]");
-		List<String> rawSplit = new ArrayList<String>();
+		String[] firstSplit = rawString.split("[\\p{P} \\t\\n\\r]");
 		for (String s: firstSplit){
-			if ((s.contains(".com"))||(s.contains(".net"))||(s.contains(".edu")||(s.contains(".org")))){
-				continue;
-			}
-			else {rawSplit.addAll(Arrays.asList(s.split("[\\p{P}]")));}
-		}
-		for (String s: rawSplit){
-			stemmer.setCurrent(s.toLowerCase());
+			stemmer.add(s.toCharArray(), s.length());
 			stemmer.stem();
-			String addition = stemmer.getCurrent();
-			answer.add(addition);
+			answer.add(stemmer.toString());
 		}
+//		for (String s: firstSplit){
+//			if ((s.contains(".com"))||(s.contains(".net"))||(s.contains(".edu")||(s.contains(".org")))){
+//				continue;
+//			}
+//			else {rawSplit.addAll(Arrays.asList(s.split("[\\p{P}]")));}
+//		}
+//		for (String s: rawSplit){
+//			stemmer.setCurrent(s.toLowerCase());
+//			stemmer.stem();
+//			String addition = stemmer.getCurrent();
+//			answer.add(addition);
+//		}
 		return answer;
 	}
 	

@@ -72,10 +72,10 @@ public class CSVReaderTest {
 		System.out.println(allLocations.size());
 		System.out.println(allIndustries.size());
 		System.out.println(allCompanies.size());
-		dumpSetAsList(allTitleWords, TITLE_OUTPUT_FILE);
-		dumpSetAsList(allDescriptionWords, DESCRIPTION_OUTPUT_FILE);
-		dumpSetAsList(allLocations, LOCATION_OUTPUT_FILE);
-		dumpSetAsList(allIndustries, INDUSTRY_OUTPUT_FILE);
-		dumpSetAsList(allCompanies, COMPANY_OUTPUT_FILE);
+//		dumpSetAsList(allTitleWords, TITLE_OUTPUT_FILE);
+//		dumpSetAsList(allDescriptionWords, DESCRIPTION_OUTPUT_FILE);
+//		dumpSetAsList(allLocations, LOCATION_OUTPUT_FILE);
+//		dumpSetAsList(allIndustries, INDUSTRY_OUTPUT_FILE);
+//		dumpSetAsList(allCompanies, COMPANY_OUTPUT_FILE);
 	}
 }
