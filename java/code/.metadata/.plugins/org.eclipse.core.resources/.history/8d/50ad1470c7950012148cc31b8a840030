@@ -1,0 +1,59 @@
+package test;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.google.gson.Gson;
+
+import csvReader.CSVReader;
+
+public class SalaryLocking {
+	
+	private static final String FULL_DATA="/home/svictoroff/Documents/Kaggle/SalaryPrection/data/Train_rev1.csv";
+	private static final String SALARY_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/Salaries.json";
+
+	public static void main(String[] args) throws IOException{
+		CSVReader reader = new CSVReader(new FileReader(FULL_DATA));
+		String[] nextLine;
+		File file = new File(SALARY_OUTPUT_FILE);
+		BufferedWriter jobWriter = new BufferedWriter(new FileWriter(file));
+		int counter = 0;
+		Map<Double, Integer> salaryHistogram = new HashMap<Double, Integer>();
+		while ((nextLine = reader.readNext()) != null){
+			Double salary = Double.parseDouble(nextLine[10]);
+			if (!salaryHistogram.keySet().contains(salary)){
+				salaryHistogram.put(salary, 1);
+			} else{
+				salaryHistogram.put(salary, salaryHistogram.get(salary)+1);
+			}
+			counter++;
+			if (counter%1000 == 0){
+				System.out.println(counter);
+			}
+		}
+		List<Double> salaries = new ArrayList<Double>(salaryHistogram.keySet());
+		List<Integer> frequencies = new ArrayList<Integer>();
+		Collections.sort(salaries);
+		for (Double d: salaries){
+			frequencies.add(salaryHistogram.get(d));
+		}
+		reader.close();
+		Gson data1 = new Gson();
+		String salaryData = data1.toJson(salaries);
+		Gson data2 = new Gson();
+		String frequencyData = data2.toJson(frequencies);
+		jobWriter.write(salaryData);
+		jobWriter.write(frequencyData);
+		System.out.println(salaries.size());
+		
+		jobWriter.close();
+	}
+}
