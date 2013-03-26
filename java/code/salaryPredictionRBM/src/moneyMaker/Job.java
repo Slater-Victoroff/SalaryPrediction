@@ -50,9 +50,7 @@ public class Job {
 			stemmer.setCurrent(s.toLowerCase());
 			stemmer.stem();
 			String addition = stemmer.getCurrent();
-			if ((addition.length()>2)&&(!addition.matches("[0-9]+"))){
-				answer.add(addition);
-			}
+			answer.add(addition);
 		}
 		return answer;
 	}

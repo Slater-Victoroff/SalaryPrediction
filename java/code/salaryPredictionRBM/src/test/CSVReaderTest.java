@@ -25,7 +25,7 @@ public class CSVReaderTest {
 	private static final String TINY_SAMPLE_DATA="/home/svictoroff/Documents/Kaggle/SalaryPrection/data/Train_rev1_tiny_sample.csv";
 	private static final String TEST_DATA="/home/svictoroff/Documents/Kaggle/SalaryPrection/data/Valid_rev1.csv";
 	
-	private static final String JOB_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/jobs.json";
+	private static final String JOB_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/.json";
 	private static final String TITLE_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/titles.json";
 	private static final String DESCRIPTION_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/descriptions.json";
 	private static final String LOCATION_OUTPUT_FILE="/home/svictoroff/Documents/Kaggle/SalaryPrection/code/usefulData/locations.json";
